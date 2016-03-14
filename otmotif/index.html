@@ -1,0 +1,2759 @@
+
+ 
+<HTML>
+<HEAD>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KAMUS OTOMOTIF</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link href="css/player-css.css" rel="stylesheet" media="all" />
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+<script>
+function myFunction() {
+    location.reload();
+    }
+
+
+ 
+</script>
+<style>
+  
+.ui-li-static.ui-collapsible > .ui-collapsible-heading {
+margin: 0;
+}
+.ui-li-static.ui-collapsible {
+padding: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading > .ui-btn {
+border-top-width: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading.ui-collapsible-heading-collapsed > .ui-btn,
+.ui-li-static.ui-collapsible > .ui-collapsible-content {
+border-bottom-width: 0;
+}
+
+.wrap {
+		white-space: normal !important;
+		 
+}
+
+.myParagraph {
+                color:#333;
+		overflow:show;
+		text-overflow:clip;
+		white-space:normal;
+		 
+		margin-bottom:0px;
+           }
+		   
+p {
+    white-space: normal !important;
+	 line-height: 1.7em;
+	 font-family:verdana,geneva,sans-serif;
+	 font-size:16px;
+}
+</style>
+</HEAD>
+<BODY  >
+ 
+	 <!-- Start of first page -->
+
+
+<div data-url="demo-page" data-role="page" id="demo-page">
+
+<div data-role="header"  data-theme='b' ata-position="fixed" ata-fullscreen="true">
+ <a onClick="myFunction()"  class="ui-btn-left ui-btn ui-icon-refresh ui-btn-icon-notext ui-corner-all " >No text</a>
+ <a  onClick="closeActivity()" class="ui-btn-right ui-btn ui-icon-power ui-btn-icon-notext ui-corner-all">No text</a>
+  
+ <h1>KAMUS OTOMOTIF</h1>
+	 
+</div><!-- /header -->
+
+
+
+<div data-role="footer" data-position="fixed" data-theme='a'>
+ 
+<div data-role="navbar" >
+	 <ul>
+		 <li><a href="#info" data-rel="popup" data-position-to="window" data-transition="pop"  data-icon="info">Info</a></li>
+		 <li><a href="#carapakai" data-rel="popup" data-position-to="window" data-transition="pop"  data-icon="comment">Cara Pakai</a></li>
+		 <li><a href="#saran" data-rel="popup" data-position-to="window" data-transition="pop"  data-icon="mail">Saran</a></li>
+		 
+	 </ul>
+	 </div><!-- /navbar -->
+</div><!-- /footer -->
+ <div role="main" class="ui-content">
+ 
+ 
+
+<div data-role="popup" id="info" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+<h3>Kamus Otomotif Offline</h3>
+<p>versi 1.0 by rahmatdi</p>
+ 
+ 
+</div>
+
+<div data-role="popup" id="carapakai" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+<h3>Cara pakai Aplikasi kamus otomotif?</h3>
+<p>- pilih kosakata yang dari huruf A-Z</p>
+<p>- lakukan pencarian jika diperlukan</p>
+<p>- setelah menemukan kosakata yang inginkan, tekan untuk membuka pengertiannya</p>
+
+<a href="index.html" data-rel="back" class="ui-shadow ui-btn   ui-corner-all ui-btn-b ui-icon-action ui-btn-icon-left ui-btn-inline ui-mini">Ok, I got it!</a>
+ 
+</div>
+
+<div data-role="popup" id="saran" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+<h3>Saran dan feedback?</h3>
+<p>kamu bisa mengirimkan kosakata baru atau saran dan feedback ke rahmatdiblack@gmail.com</p>
+<a href="index.html" data-rel="back" class="ui-shadow ui-btn   ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini">Terimakasih!</a>
+ 
+</div>
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+        location.reload();
+    }
+
+     function closeActivity() {
+        Android.closeActivity();
+    }
+     function about() {
+        alert('kamus otomotif v.1.0 by rahmatdi');
+    }
+</script>
+<input type="date">
+ <div data-role="collapsibleset" data-theme="b" data-content-theme="a">
+		<div data-role="collapsible">
+			  <h2>A</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Abrasion Resistance</h2>
+					<p class="wrap">
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">Berfungi untuk menghindarkan goresan pada saat pemasangan dan lebih anti gores dibanding kaca film biasa.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ABS</h2>
+					<p class="wrap">
+	<span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">Anti-lock Braking System berguna untuk mencegah terjadinya efek mengunci pada perangkat rem tatkala menginjak pedal secara mendadak sehingga mobil terhindar dari kemungkinan selip akibat efek gaya dorong kendaraan yang menjauhi titik pusat (sentrifugal)<br />
+	<br />
+	Caranya adalah dengan sensor yang memberikan input atau kontrol, kapan roda harus berhenti dan kapan roda harus berputar. Jadi ketika kendaraan di rem, roda tidak terkunci dan pengemudi masih tetap bisa mengendalikan kendaraan tersebut.<br />
+	<br />
+	Teknologi ini pertama kali diperkenalkan oleh Daimler yang ketika itu masih berduet hanya dengan Benz tahun 1970. ABS awalnya diberi nama antiblock system diciptakan oleh Hans Scherenberg di Stuttgart, Jerman.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Accident Data Recorder (ADR2) </h2>
+					<p>
+	<span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Accident Data Recorder (ADR2) </strong>Fungsinya seperti kotak hitam dalam pesawat terbang yaitu sebagai alat perekam urutan kejadian kecelakaan yang terjadi di mobil. Kotak perekam ini meyimpan semua parameter yang terjadi saat tabrakan</span></span></p>
+<p>
+	<span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">ADR2 mampu menyimpan data kecelakaan yang terjadi selama lima menit. Pertama kali digunakan pada mobil balap Indy 500.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Active Air Suspension </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Active Air Suspension </strong>Fungsinya menahan posisi mobil tetap stabil. Teknologi ini dikeluarkan oleh Mercedes.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Active Body Control (ABC)</h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Active Body Control (ABC) -&nbsp;</strong>Merupakan teknologi suspensi yang bersifat aktif ciptaan Mercedes Benz dimana ABC memperbaiki kualitas penguasaan kendaraan di segala medan.</span></span></p>
+<p>
+	<span style="font-size: 16px; font-family: verdana, geneva, sans-serif;">Sistem ABC memisahkan pekerjaan dari suspensi menurut elemen aktif dan pasif. Secara dasar, gaya, pukulan atau tekanan besar yang diterima oleh hidrolis&nbsp;sedangkan yang kecil di terima oleh peredam kejut yang konvensional.</span><span style="font-family: verdana, geneva, sans-serif; font-size: 16px;">Jika sistem suspensi aktif yang full, sangat menyedot tenaga mesin dan semakin memboroskan bahan bakar.</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px; font-family: verdana, geneva, sans-serif;">Sistem ABC mempunyai efek yang minimal terhadap penggunaan bahan bakar dan sebaliknya mendapatkan kenyamanan dan penguasaan jalan yang maksimal.</span></p>
+<p>
+	<span style="font-size: 16px; font-family: verdana, geneva, sans-serif;">Ini bisa terjadi karena unit hidrolis aktif dan peredam kejut yang pasif masing-masing mengerjakan &lsquo;urusannya&rsquo; sendiri-sendiri. Seluruh usaha dari unit ABC terkonsentrasi ke pergerakan dan getaran berfrekuensi rendah.(ini bisa terjadi kurang dari 5 kali dalam 1 detik atau 5 Hertz.)</span></p>
+<p>
+	<span style="font-size: 16px; font-family: verdana, geneva, sans-serif;">Sementara itu masih ada penahan seperti per yang biasa didapati di sistem suspensi, peredam kejut pasif yang bertekanan gas, terkombinasi dengan sensor gerak dan aktuator hidrolis.</span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Active Cornering Enhancements (ACE) </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Active Cornering Enhancements (ACE) </strong>Perangkat ini menjaga kendaraan dari gejala body roll saat melibas tikungan atau zigzag di jalan raya. Tapi bila kemudi mengarah ke jalan non aspal ACE membantu kendaraan tetap stabil.</span></span></p>
+<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">Suspensi akan bergerak sangat bebas bila terjadi perbedaan kedudukan as roda, semisal roda kiri depan menjejak lubang dalam, sedang kanannya menggilas gundukan. Teknologi ini ada pada Land rover discovery series II.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Active Roll Control System </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Active Roll Control System </strong>Metode ini diarahkan untuk membantu driver menjaga sudut kemiringan tunggangannya. Secara fisik posisinya berada diatas lengan ayun depan dan belakang.</span></span></p>
+<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">Perangkat ini tak ubahnya sebuah peredam kejut tambahan yang bekerja sama dengan batang stabilizer. Ditambah fitur sensor kemiringan dan sudut putaran setir.</span></span></p>
+<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">Saat mobil melaju sensorsensor akan bekerja memantau&nbsp;tiap sudut kemiringan baik ketika melaju di trek lurus ataupun saat menikung</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Active Yaw Control (AYC) </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Active Yaw Control (AYC) </strong>Sistem ini telah mengalami modifikasi untuk menangani ekstra torsi dan memperkuat peralihan torsi pada differensial belakang. Sewaktu berakselerasi sembari menikung, AYC mengirimkan tenaga tambahan pada roda terjauh dari titik dalam tikungan untuk mengurangi understeer.</span></span></p>
+<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">Misalnya ketika belok kiri, tenaga akan ditambahkan pada roda kanan. Selanjutnya saat keluar dari tikungan, sistem ini akan mengirimkan power pada roda yang berada pada sisi dalam untuk menjaga kestabilan.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Adaptive Cruise Control (ACC) </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Adaptive Cruise Control (ACC) </strong>Tehnologi sistem pengontrol yang mampu menjaga jarak dan kecepatan dengan kendaraan di depan. Sistem ini akan mendeteksi kecepatan kendaraan di depan selanjutnya sistem memerintahkan mobil untuk menyamakan kecepatan dan menjaga jarak dengan bantuan rem dan komputer pengatur kerja rem. Tehnologi ini ada pada BMW seri 7.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Adaptive Gear Changing System (AGS) </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Adaptive Gear Changing System (AGS) </strong>Sistem yang mendukung kerja transmisi otomatis. AGS akan bereaksi secara sensitif terhadap gaya mengemudi serta kondisi jalan.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ADB-X Automatic Differential Brake Adjustable Engine Management</h2>
+					<p>
+	<strong><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">ADB-X Automatic Differential Brake Adjustable Engine Management</span></span></strong></p>
+<p>
+	<span style="font-size:16px;">Sistem pada mesin dengan perantara satelit navigasi yang dapat merubah program komputer mesin. Dengan begitu kinerja mesin jadi makin adaptif sesuai lingkungan dan perilaku pengemudi. </span></p>
+<p>
+	<span style="font-size:16px;">Kadar oktan bahan bakar pun dapat disesuaikan secara otomatis. Sistem ini juga akan mendeteksi dan memperbaiki kerusakan&nbsp;elektronis yang timbul. Teknologi ini telah didemonstrasikan pada Volvo seri S80.</span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Additional Retarding Braking System</h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;">&nbsp;Semua komponen rem untuk mengurangi kecepatan kendaraan melaju di jalan menurun</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Adjustable Suspension Kit </h2>
+					<p>
+	<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:16px;"><strong>Adjustable Suspension Kit </strong>Peredam kejut dan per yang digabung menjadi satu. Selain mempunyai kemampuan layaknya peranti kompetisi (racing kit), umumnya tinggi rendahnya dapat diatur sesuai medan jalan atau keinginan pemilik mobil.</span></span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Advancer Vacuum</h2>
+					<p>
+	<span style="font-size:16px;"><strong>Advancer Vacuum</strong> Komponen ini bertugas untuk mengatur waktu pengapian sesuai perubahan beban mesin.</span></p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Adventure Off road kering Air Bag</h2>
+					<p>
+	<strong>Adventure Off road kering Air Bag</strong> Adalah teknologi kantong udara untuk menahan penumpang bagian depan ketika tabrakan terjadi. Biasanya Air Bag tersimpan di lingkaran dalam roda stir dan dashboard.</p>
+<p>
+	Teknologi Air Bag ini diklaim sebagai teknologi yang lebih canggih ketimbang seatbelt atau sabuk pengaman karena Air Bag bukan sekedar menahan dengan cara mengikat penumpang ke kursi tapi menjadi bantalan yang terkembang di depan wajah si penumpang tepat saat tabrakan terjadi dan langsung menahan benturan ke dashboard dan kaca depan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Adventure Off road Kering Anti Intrusion</h2>
+					<p>
+	<strong>Adventure Off road Kering Anti Intrusion</strong> Struktur body anti penyok</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Air dam</h2>
+					<p>
+	<strong>Air dam</strong> Lubang masuk udara yang berfungsi mereduksi hambatan aerodinamika, sekaligus membantu mendinginkan radiator dan ruangan mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Air scoop </h2>
+					<p>
+	<strong>Air scoop </strong>Fungsinya untuk mengalirkan udara ke suatu sasaran .</p>
+<p>
+	Digunakan untuk mendinginkan mesin atau menambah volume udara ke karburator. Bentuknya seperti terowongan kecil dengan bentuk agak tirus.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Air Spring</h2>
+					<p>
+	<strong>Air Spring</strong> Pegas udara yaitu silinder karet atau kantong udara yang berisi udara yang ditekan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Air sprung rear axle </h2>
+					<p>
+	<strong>Air sprung rear axle </strong>Disebut juga suspensi balon. Perangkat ini berfungsi mengubah konstanta per (spiral) sesuai kebutuhan. Sehingga dapat mengantisipasi mobil yang tak terbebani ataupun over load agar suspensi terasa lembut.</p>
+<p>
+	Prinsip suspensi balon ini menghasilkan ayunan yang dihasilkan pada kantung udara. Dapat diatur tekanannya guna menahan beratnya beban dan menyerap body roll. Prinsip kerjanya diatur oleh kompresor, oleh karena itu antisipasi paling penting adalah mengganti dinamo ampere standar (115 ampere) dengan yang lebih besar (&gt;140 ampere), agar aki tidak tekor ketika beban kerja tinggi.</p>
+<p>
+	Kelemahannya beban berat, lama kelamaan akan menimbulkan masalah. Bagian belakang akan amblas, membuat bagian depannya mendongak. Penggantian per dengan jenis dan tipe yang lebih keras membuat mobil lebih kokoh saat dimuati beban lebih.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>AIS - Autosport International Show</h2>
+					<p>
+	AIS Autosport International Show</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>All system traction control </h2>
+					<p>
+	<strong>All system traction control </strong>Menggunakan ABS dan komputer pengontrol mesin. Prinsip kerjanya, pada saat system pengerem bekerja, komputer mengurangi daya yang dihasilkan mesin atau memindahkan ke gigi transmisi yang lebih tinggi untuk mengurangi wheel spin.</p>
+<p>
+	Untuk kecepatan tinggi. Perangkat ini terpasang pada mobil mewah seperti Mercedes-Benz S-Class dan E-Class, BMW Seri 7, Lexus LS400 dan Cadillac DeVille</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>All Terrain Vehicle (ATV)</h2>
+					<p>
+	<strong>All Terrain Vehicle (ATV)</strong> Bentuk ATV mirip motor pendek beroda empat. Kendaraan ini sangat kuat terutama di medan offroad, seperti jalanan tanah atau berpasir seperti di pantai, di pertanian, di gurun pasir. Selain punya daya jelajah yang tinggi, ATV juga kuat untuk towing atau menarik kendaraan lain.</p>
+<p>
+	Kendaraan berdaya angkut besar ini punya tenaga besar namun ukuran badannya yang berdimensi kecil, nyaris seperti motor buat anak-anak. Gerak rodanya di belakang atau rear drive yang punya shaft tunggal. Tenaganya yang besar tidak cocok untuk jalanan aspal dan sering menyebabkan terjadinya spin dan slide ketika melakukan pembelokkan. Walau bernama ATV, sebenarnya kendaraan ini lebih cocok di sebut OTV (Off Road Terrain Vehicle).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>All Wheel Drive (AWD)</h2>
+					<p>
+	<strong>All Wheel Drive (AWD)</strong> Mobil yang menganut sistem ini mendistribusi tenaga ke empat roda setiap waktu. Jadi tidak perlu mengoper tuas atau tombol penggerak roda dari posisi gerak roda dua ke roda empat sebaliknya.</p>
+<p>
+	AWD cukup mampu untuk melibas jalanan pedesaan, offroad ringan dan bukit landai. Pada kenyataannya, ground clearance (jarak terendah antara mobil dan tanah) yang sering menghentikan mobil, daripada ketidakmampuan AWD.</p>
+<p>
+	Mobil-mobil yang menggunakan system AWD: Audi Quattro; Mitsubishi Eclipse, 3000GT; Mercedes-Benz E320; Subaru; Volvo V70 ; Chrysler Town &amp; Country; Dodge Grand Caravan; Mazda MPV; Honda CR-V; Lexus RX300.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Alternator noise</h2>
+					<p>
+	<strong>Alternator noise -&nbsp;</strong>Lengkingan suara saat sistem audio diaktifkan. Hal ini terjadi karena sistem accu, alternator dan kabel yang kurang beres.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ammeter </h2>
+					<p>
+	<strong>Ammeter </strong>Alat yang mengukur dan melaporkan aliran arus listrik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Anti Dazzle Mirror </h2>
+					<p>
+	<strong>Anti Dazzle Mirror </strong>Sistem keamanan pada kaca spion interior untuk memunculkan bias gelap saat terkena cahaya. Di antara dua&nbsp;lapisan kaca spion, biasanya dipakai lembar film yang sangat tipis atau cairan khusus.&nbsp;</p>
+<p>
+	Dihubungkan lewat tegangan listrik tertentu, lapisan mediator inilah yang memunculkan bias yang gelap saat terkena cahaya. Selain BMW, mobil-mobil Eropa lainnya seperti Audi, Volvo dan mercedes benz juga mempunyai fitur keamanan serupa.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Anti Intrusion </h2>
+					<p>
+	<strong>Anti Intrusion </strong></p>
+<p>
+	Struktur body anti penyok.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Anti skid footplate</h2>
+					<p>
+	<strong>Anti skid footplate</strong> Alas kaki tambahan yang ditempatkan di atas dek pengemudi dan penumpang depan pada mobil sport. Luas&nbsp;penampang lebih lebar mengikuti bentuk dek.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Anti-Scan, Anti-Grab Prevention</h2>
+					<p>
+	<strong>Anti-Scan, Anti-Grab Prevention</strong> Kode pada alarm yang artinya alarm mempunyai kemampuan mengantisipasi pembajakan nomor kode dan frekwensi.</p>
+<p>
+	Cara kerjanya remote control mengirim nomor kode dan frekwensi yang berbeda ke sensor secara acak. Akibatnya data yang terekam pembajak akan selalu berbeda dengan remote control.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Aquaplanning </h2>
+					<p>
+	<strong>Aquaplanning -&nbsp;</strong>Gejala Aquaplanning terjadi pada saat ban membelah air, akibatnya bagian depan terasa lebih berat karena ban kehilangan traksi dan kemampuan mengerem. Hal ini disebabkan karena terbentuknya lapisan segi tiga antara ban dan permukaan jalan yang basah.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ash Carbon</h2>
+					<p>
+	<strong>Ash Carbon</strong> - Kerusakan busi yang disebabkan karena endapan abu. Tanda-tanda : endapan berwarna coklat muda menempel di sisi atau di tengah elektroda, atau keduanya. Endapan yang terlalu banyak bisa menyelimuti busi, sehingga busi macet sewaktu berakselerasi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ATF  - Automatic Transmission Fluid</h2>
+					<p>
+	ATF &nbsp;Automatic Transmission Fluid</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ATPM</h2>
+					<p>
+	ATPM Singkatan dari Agen Tunggal Pemegang Merek. Merupakan jalur resmi masuknya mobilmobil buatan luar negeri ke Indonesia.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Auto lock / unlock </h2>
+					<p>
+	<strong>Auto lock / unlock </strong>Sistem ini secara otomatis akan mengunci pintu dalam 5 detik setelah mesin dihidupkan dan sebaliknya kunci akan terbuka 5 detik setelah mesin dimatikan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic 4WD </h2>
+					<p>
+	<strong>Automatic 4WD </strong>Sistem ini bergerak dengan 2WD, hingga system mendeteksi perlunya menggunakan 4WD. Secara otomatis daya dibagi ke roda&nbsp;depan dan belakang dengan perbandingan sesuai kondisi medan.</p>
+<p>
+	Pada umumnya system otomatis bekerja bila salah satu ban slip. Yang lebih modern, menggunakan software yang dapat mengubah ke 4WD sebelum roda slip, dengan menganalisa kondisi jalanan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Braking System </h2>
+					<p>
+	<strong>Automatic Braking System </strong>Seluruh komponen rem baik pada induk maunpun gandengannya yang biasa digunakan pada truk-truk gandengan yang panjang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Cruise Control </h2>
+					<p>
+	<strong>Automatic Cruise Control </strong>Piranti ini berupa perangkat pembantu yang mengatur laju kendaraan. Caranya dengan mendeteksi laju kendaraan di depannya. Sistem pengereman berfungsi secara otomatis, jika mendeteksi benda di depannya akan mengurangi kecepatan mendadak.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Disable Starter </h2>
+					<p>
+	<strong>Automatic Disable Starter </strong>Senjata pelindung terakhir pada mobil. Cara kerjanya pada saat si pencuri berusaha memasuki kabin dan memaksa menghidupkan mobil maka Auto Relay Starter berperan dengan memutus arus listrik pada rangkaian pengapian.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Engine Cut Off </h2>
+					<p>
+	<strong>Automatic Engine Cut Off </strong>Teknologi pembatas putaran mesin yang dipakai pada mobil BMW sejak tahun 1990.</p>
+<p>
+	Cara kerjanya dikontrol oleh Electronic Computer Unit (ECU) yaitu ketika jarum tachometer menyentuh angka 6.500 rpm, maka secara otomatis mobil akan menurunkan putarannya sehingga mesin tidak mengalami over-revving&nbsp;(melampaui batas putaran maksimum)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Stability Control </h2>
+					<p>
+	<strong>Automatic Stability Control -&nbsp;</strong>Sistem suspensi yang di kembangkan perusahaan otomotif BMW yang berfungsi untuk mencegah spin di ban saat melakukan akselerasi. Penggunaannya di terapkan di BMW 323iA.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Stability Control + Traction</h2>
+					<p>
+	<strong>Automatic Stability Control + Traction</strong> Fungsi utama piranti ini adalah mencegah terjadinya ban selip dan menjaga stabilitas mobil dalam kondisi jalan apa pun seperti beraspal kering, basah maupun bersalju. Cara kerjanya, beberapa sensor di roda dan mesin menangkap kinerja keduanya.</p>
+<p>
+	Setiapkali ada gejala overpower yang mengakibatkan roda selip dan kehilangan traksi, unit komputer akan membatasi output tenaga yang dihasilkan mesin. Bersamaan dengan itu, putaran roda juga dikurangi dengan rem ABS mulai 0 hingga 100 %. Efeknya seperti menggunakan limited slip differential tapi jauh lebih sempurna karena kerjanya berdasarkan program.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic Transmission </h2>
+					<p>
+	<strong>Automatic Transmission </strong>Artinya Transmisi otomatis. Transmisi atau persneling atau pengoperan gigi secara otomatis. Jika mobil transmisi konvensional atau yang biasa, bekerja dengan cara menginjak kopling memindahkan gigi lalu kembali menginjak gas. Maka transmisi otomatis ini tidak menggunakan kopling.</p>
+<p>
+	Si pengendara hanya perlu menginjak gas (seperti kalau&nbsp;naik boom-boom car). Dalam kecepatan tertentu gigi akan berpindah dengan sendirinya dan kendaraan pun akan terus melaju semakin cepat sesuai dengan injakan gas si pengemudi.</p>
+<p>
+	Sistem transmisi ini memang cocok untuk Urban Vehicle atau mobil di kota yang penuh macet. Karena si pengemudi jelas tidak akan lelah karena menahan kopling. Beberapa mobil menggunakan jenis transmisi ini, misalnya Hyundai Atoz atau Mercedes Benz AClass. Tapi banyak pengemudi lebih menyukai transmisi manual karena &lsquo;tarikan&rsquo; tenaganya lebih terasa.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Automatic wiper</h2>
+					<p>
+	Automatic wiper Gerak wiper otomatis</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Axle Ratio </h2>
+					<p>
+	<strong>Axle Ratio</strong>&nbsp;- Perbandingan putaran roda gigi transmisi dengan roda (gardan). Misalnya : apabila transmisi memiliki 10 gigi dan gardan punya 30, maka transmisi perlu tiga kali putaran untuk membuat roda sekali berputar. Bahasa teknisnya, rasio tiga banding satu (3:1).</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>B</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Back Sonar System </h2>
+					<p>
+	<strong>Back Sonar System </strong>Merupakan tehnologi sensor parkir. Dirancang untuk memperingatkan pengemudi mengenai jarak antara mobil dengan halangan atau gangguan yang berada di belakangnya.</p>
+<p>
+	Tehnologi ini memanfaatkan gelombang ultrasonik yang frekuensinya di atas 20 kHz dipancarkan menggunakan sensor ultrasonik yang berada di bumper belakang. Contoh : Toyota Corolla Altis</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Backup light </h2>
+					<p>
+	<strong>Backup light -&nbsp;</strong>Lampu rem / lampu tanda mundur.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bahan anti beku </h2>
+					<p>
+	<strong>Bahan anti beku </strong>Cairan yang ditambahkan pada air dan digunakan untuk membuat mesin mobil tetap dingin ketika bekerja. Unsur bahan anti beku mencegah cairan pendingin membeku dalam cuaca dingin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bahan Bakar </h2>
+					<p>
+	<strong>Bahan Bakar </strong>Zat mudah terbakar, yang dibakar untuk memberikan&nbsp;tenaga atau panas, misalnya bensin, etanol, metanol, diesel, gas alam, atau propan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bahan pengisi bodi </h2>
+					<p>
+	<strong>Bahan pengisi bodi </strong>Bahan plastik pengeras (dempul) yang digunakan untuk mengisi penyok dan kerutan kecil pada bodi mobil.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ban bias </h2>
+					<p>
+	<strong>Ban bias </strong>Ban dengan kain tebal atau lapisan yang dipasang di sudut, terdapat pada mobil lebih tua.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ban radial</h2>
+					<p>
+	<strong>Ban radial</strong> Ban dengan kain tebal atau lapisan yang ditaruh secara radial.</p>
+<p>
+	Bantalan Onderdil yang terbuat dari logam dan didesain untuk mengurangi gesekan di antara permukaan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bantalan rem </h2>
+					<p>
+	<strong>Bantalan rem </strong>Permukaan kaliper sistem rem cakram yang dapat diganti.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Barrier Coat </h2>
+					<p>
+	<strong>Barrier Coat </strong>Berfungsi melindungi bagian polyester dan metal dari kaca film sehingga tidak menimbulkan karat dan kaca film tidak berubah warna.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Batang kemudi </h2>
+					<p>
+	<strong>Batang kemudi </strong>Batang dari roda kemudi ke mekanisme kemudi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Batang stabilisator </h2>
+					<p>
+	<strong>Batang stabilisator </strong>Batang yang menghubungkan sistem suspensi pada roda dua (depan atau belakang) untuk menstabilkan pengemudian perputaran</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Belted radial tire </h2>
+					<p>
+	<strong>Belted radial tire </strong>ban radial bersabuk</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bemper</h2>
+					<p>
+	<strong>Bemper </strong>-&nbsp;Adalah komponen yang berfungsi sebagai guard (pelindung) baik depan maupun belakang dari benturan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bezel </h2>
+					<p>
+	<strong>Bezel </strong>Cincin atau lingkaran pelindung sebuah piranti, seperti lampu depan, sein samping, spidometer atau indikator lain. Berfungsi agar posisinya tak berubah sekaligus pemanis tampilan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>BTCC </h2>
+					<p>
+	BTCC British Touring Car Championship</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Bucket Seat </h2>
+					<p>
+	<strong>Bucket Seat </strong>Jok Balap BSA Birmingham Small Arms (Motor)</p>
+  
+						</li> 			 </ul>
+    	</div>
+   
+		<div data-role="collapsible">
+			  <h2>C</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Cabriolet</h2>
+					<p>
+	<strong>Cabriolet</strong> Adalah sebuah desain kendaraan sedan yang mini, kompak, dan berchasis pendek dengan kap atas yang bisa dibuka. Istilah ini banyak digunakan di negara Eropa seperti Jerman dan Perancis, sedangkan di Amerika di sebut convertible.</p>
+<p>
+	Walaupun awal sejarah mobil sedan kap terbuka bermula dari sedan-sedan panjang dan lebar. Namun kini, baik convertible dan cabriolet sama-sama merujuk pada mobil sedan berkap atas yang bisa dibuka.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Cairan pendingin </h2>
+					<p>
+	<strong>Cairan pendingin </strong>Campuran air dan alkohol etilena dalam radiator mobil yang membantu memindahkan panas mesin ke udara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Camber</h2>
+					<p>
+	<strong>Camber </strong>-&nbsp;Sudut Kemiringan antara sebuah Roda dan Jalan dilihat dari samping, merupakan sudut keausan ban.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Camshaft</h2>
+					<p>
+	<strong>Camshaft</strong> Disebut juga poros kam/noken as. Berfungsi sebagai pembuka katup mesin, digerakkan oleh timming gear atau timing chain, bergantung dari jenis mesinnya</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Canister </h2>
+					<p>
+	<strong>Canister </strong>Jenis saringan oli yakni suatu elemen yang diberi sil/perapat dalam suatu badan dengan bahan logam, disekrupkan pada alur-alur peti engkol, dan diberi sil perapat lagi dengan ring / cincin karet.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Car Type</h2>
+					<p>
+	<strong>Car Type</strong> Tipe atau jenis mobil. Sejak gerobak bermesin ditemukan baik itu oleh Henry Ford di Amerika atau oleh Gottlieb Daimler di Eropa, hingga sekarang sudah bermunculan beragam jenis mobil.</p>
+<p>
+	Mulai dari yang sederhana seperti Sedan atau Saloon dan Station Wagon hingga SUV, MPV, Offroader, Roadster, Van, Coupe, Convertible, Sports Car, Roadster, Urban Vehicle, Two seater, dan hatchback. Semua itu tergantung dari tujuan penggunaannya</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Carbon Deposit </h2>
+					<p>
+	<strong>Carbon Deposit -&nbsp;</strong>Kerusakan busi disebabkan karena endapan arang/jelaga hitam. Tanda-tanda: Endapan arang kering menunjukkan beragamnya campuran atau lemahnya pengapian. Hal tersebut menyebabkan busi macet dan sukar distarter</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Carcass</h2>
+					<p>
+	<strong>Carcass</strong> Bahan utama yang menjadi lapisan paling dalam (dasar) pada sebuah ban.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Cartridge</h2>
+					<p>
+	Jenis saringan oli terdiri dari satu elemen dan satu separator / pemisah bahan logam yang secara normal dipasang pada rumah ke peti engkol dan dipasang / dilepas melalui sekrup baut yang memegang badan pada rumahnya.</p>
+<p>
+	Kebocoran oli dicegah oleh adanya sil / perapat yang sewaktu-waktu bisa diganti elemennya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Caster</h2>
+					<p>
+	<strong>Caster</strong> Sudut yang dibentuk oleh garis yang menghubungkan ball joint atas dan bawah, dengan garis vertikal dari roda depan.</p>
+<p>
+	Besarnya sudut itu bila diukur sekitar 1-3 derajat. Sudut caster menimbulkan gaya balik kemudi yang cenderung mengarahkan roda depan ke posisi lurus.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>CBU - Completely Build Up,</h2>
+					<p>
+	<strong>CBU Completely Build Up,</strong> alias mobil yang secara keseluruhannya merupakan hasil Build-Up dari manufaktur orisinilnya. Istilah ini di Indonesia berkaitan dengan kebijakkan pemerintah lokal untuk secara bertahap memproduksi mobil sendiri.</p>
+<p>
+	Tahapan-nya adalah dengan membangun pabrik-pabrik perakitan dan onderdil lokal secara bertahap, sehingga muncul istilah-istilah seperti assembling, hasil rakitan lokal, CKD alias completely knocked down</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>CD - Coefficient of Drag</h2>
+					<p>
+	cd Coefficient of Drag =&gt; Nilai aerodinamika</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>CDI </h2>
+					<p>
+	<strong>CDI </strong>Capacitor Discharge Ignition</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>CECS </h2>
+					<p>
+	<strong>CECS </strong>Teknologi Honda pada motor Sonic 125. Singkatan dari Crankcase Emission Control System. Yaitu sistem piranti pengatur udara dari kamar crankcase untuk menghindari pencemaran udara.</p>
+<p>
+	Cara kerja nya dimulai dari kumpulan udara bergerak di ruang crankcase. Udara bergerak di ruang kruk as akibat gerakan naik turun piston. Karena kencangnya gerakan komponen tadi, udara memiliki tekanan. Sementara kerja mesin yang menimbulkan panas (kompresi) turut menaikkan suhu angin bertekanan tadi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>CID - Cubic Inch Displacement </h2>
+					<p>
+	<strong>CID Cubic Inch Displacement </strong>adalah volume total ruang pembakaran dalam mesin yang diukur dalam inci kubik, kalikan liter dengan 61,027.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Coupe </h2>
+					<p>
+	<strong>Coupe </strong>2 pintu</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Course marshall </h2>
+					<p>
+	<strong>Course marshall </strong>Petugas yang membersihkan track.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Cruise Control System</h2>
+					<p>
+	<strong>Cruise Control System</strong> Radar untuk memantau kondisi kendaraan di depan. Dilengkapi dengan display</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		
+		<div data-role="collapsible">
+			  <h2>D</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Dashboard </h2>
+					<p>
+	<strong>Dashboard </strong>Adalah kontrol panel kendaraan yang terpasang di bagian muka kabin penumpang. Lajur sepanjang lebar kabin itu banyak memuat perlengkapan&nbsp;untuk kontrol kendaraan, seperti roda setir, speedometer, tombol-tombol dan lain-lain.</p>
+<p>
+	&nbsp;</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Detonation </h2>
+					<p>
+	<strong>Detonation </strong>Kerusakan busi yang disebabkan karena Insulator retak atau coak. Teknik penyetelan &lsquo;gap&rsquo; yang tidak tepat juga bisa menyebabkan keretakan pada ujung insulator.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Diameter X Langkah </h2>
+					<p>
+	<strong>Diameter X Langkah </strong>Diameter adalah ukuran garis tengah dari lubang silinder mesin. Sering disalahnamakan dengan bohring oleh mekanik awam yang sebenarnya adalah boring. Sedangkan langkah adalah panjang gerakan bolakbalik dari piston.</p>
+<p>
+	Panjang langkah piston ini diukur dari titik mati paling atas (TMA) atau TDC (top death center) sampai ke titik mati paling bawah (TMB) atau BTC (bottom dead center).</p>
+<p>
+	Panjang langkah ditentukan oleh diameter lingkaran yang dibuat oleh putaran poros engkol. Atau sama dengan panjang antara titik pusat poros engkol dengan tempat setang piston dipasang. Diameter dan langkah ini menentukan volume atau kapasitas mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Diameter X Langkah / Diameter X Stroke</h2>
+					<p>
+	<strong>Diameter X Langkah / Diameter X Stroke</strong> Diameter adalah ukuran garis tengah dari lubang silinder mesin. Sering disalahnamakan dengan bohring oleh mekanik awam yang sebenarnya adalah boring. Sedangkan langkah adalah panjang gerakan bolakbalik dari piston. Panjang langkah piston ini diukur dari titik mati paling atas (TMA) atau TDC (top death center) sampai ke titik mati paling bawah (TMB) atau BTC (bottom dead center).</p>
+<p>
+	Panjang langkah ditentukan oleh diameter lingkaran yang dibuat oleh putaran poros engkol. Atau sama dengan panjang antara titik pusat poros engkol dengan tempat setang piston dipasang.&nbsp;Diameter dan&nbsp;langkah ini menentukan volume atau kapasitas mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Diesel engine</h2>
+					<p>
+	<strong>Diesel engine</strong> Merupakan jenis mesin penghasil tenaga dengan mesin yang mengunakan sistim pembakaran oleh kompresi.Tidak seperti mesin lainnya yang pembakaran-nya diambil dari pengapian atau ignition yang mengunakan percikan api.</p>
+<p>
+	Diesel menggunakan suhu panas dari kompresi. Udara ditarik ke silinder dan di kompres sehingga menciptakan&nbsp;suhu yang sedemikian panas yang menyalakan bahan bakar yang diinjeksikan ke mesin. Kata diesel sendiri diambil dari nama penemunya yaitu Rudolph Diesel.</p>
+<p>
+	Mesin Diesel sangat irit dalam menggunakan bahan bakar ketimbang mobil bensin, tapi mobil diesel punya pantangan yaitu bahan bakar di dalam tangki kendaraannya tidak boleh di pakai sampai habis. Aturan umumnya adalah bahan bakar yang tersisa minimal 1/3 tangki. Bahkan ada kendaraan yang isi bahan bakarnya tinggal &frac12; tangki pun, ia harus sudah diisi penuh lagi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Dieselmotoren</h2>
+					<p>
+	<strong>Dieselmotoren</strong> Adalah motor yang dapat hidup karena memakai bahan bakar solar di campur dengan udara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Differensial </h2>
+					<p>
+	<strong>Differensial </strong>Rancangan gigi (gardan) yang memungkinkan dua roda (sejajar) berputar dengan jumlah putaran berbeda. Satu lebih cepat lainnya lambat, misalnya saat berbelok. Gunanya untuk menghubungkan perputaran mesin dengan roda belakang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Differential Global Positioning System </h2>
+					<p>
+	<strong>Differential Global Positioning System </strong>Fungsinya mendeteksi posisi mobil terhadap benda di sekelilingnya sampai jarak beberapa sentimeter. Gunanya untuk mencegah tabrakan. Pendeteksi super akurat ini juga akan memerintahkan sistem rem dan suspensi bekerja sesuai karakter pengemudi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Dimmer Switch </h2>
+					<p>
+	<strong>Dimmer Switch </strong>Sakelar peredup lampu Dynamic Balance Yaitu keadaan di mana roda tidak bergetar pada arah samping kiri kanan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Direct Acting</h2>
+					<p>
+	<strong>Direct Acting</strong> Jenis peredam kejut. Gaya peredaman direct acting diperoleh dari gaya tekan oli yang melewati lubang kecil seperti sebuah plunyer yang bergerak ke atas dan ke bawah pada silinder</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Direct Injection </h2>
+					<p>
+	<strong>Direct Injection </strong>Merupakan system injeksi bahan bakar pada mesin diesel. Disebut juga injeksi langsung karena solar diinjeksikan ke dalam ruang bakar yang terdapat di antara kepala silinder dan piston.</p>
+<p>
+	Guna mendongkrak efisiensi pembakaran solar, ruang bakar mesin diesel injeksi langsung dirancang secara khusus. Saat ini ada 3 macam ruang bakar mesin diesel injeksi langsung yaitu multi spherical, hemispherical, spherical.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Disk brake  </h2>
+					<p>
+	<strong>Disk brake-&nbsp;</strong>Rem cakram</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Distorsi </h2>
+					<p>
+	<strong>Distorsi </strong>Semua gangguan suara yang &nbsp;disebabkan akibat piranti audio maupun pengaruh dari luar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>DKW</h2>
+					<p>
+	<strong>DKW</strong> Singkatan dari Dampfkraftwagen artinya kendaraan yang ditenagai uap. Diciptakan oleh Jorgen Skafte Rasmussen</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>DOT </h2>
+					<p>
+	DOT Departemen of Transportation (regulasi Rem)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Down Force</h2>
+					<p>
+	<strong>Down Force</strong> Hambatan Angin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Drum brake</h2>
+					<p>
+	&nbsp;Rem tromol</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>DSC </h2>
+					<p>
+	DSC Dynamic Stability Control</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Dynamic Brake Control (DBC) </h2>
+					<p>
+	<strong>Dynamic Brake Control (DBC) </strong>Sistem ini akan memberikan daya tekan pedal lebih kuat lagi agar si pengemudi tidak melakukan pengocokan pedal rem lagi. Intinya sistem ini akan mengukur rasio penambahan tekanan di pedal rem.</p>
+<p>
+	Sehingga begitu pedal rem diinjak, DBC akan memberikan respon ke sistem hidrolik yang memanfaatkan kerja vacuum brake booster.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Dynotest Test </h2>
+					<p>
+	<strong>Dynotest Test </strong>kekuatan dapur pacu (mesin)</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>E</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>E-Gas</h2>
+					<p>
+	<strong>E-Gas</strong> -&nbsp;Pedal Gas yang diatur secara elektronis dan diterapkan di Porsche 911 Carrera 4. Penerapannya adalah penggunaan sensor -di pedalyang mengirimkan sinyal ke komputer.</p>
+<p>
+	Tugas komputer-lah yang memproses sinyal itu ke throttle akselerator sesuai dengan keinginan si pengemudi. E-gas ini juga membantu penghematan bahan bakar karena penggunaannya di atur se-efektif dan se-efisien mungkin. Ini juga mengurangi emisi gas buang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>EBD</h2>
+					<p>
+	<strong>EBD</strong> Electronic Brake Distribution : yaitu system pengereman untuk menghindari terkuncinya keempat roda saat mengerem mendadak. EBD mendistribusikan secara otomatis kekuatan pengereman antara roda depan dan belakang secara elektronik sehingga pengereman di segala kondisi bisa dimaksimalkan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ebonit tensioner </h2>
+					<p>
+	<strong>Ebonit tensioner </strong>Berfungsi untuk menahan dan menekan rantai</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>EBV </h2>
+					<p>
+	<strong>EBV </strong>Electronic Controlled Brake Distributor yaitu sistem rem yang lebih maksimal dari ABS (yang digunakan oleh Mercedes Benz). Sistem EBV ini digunakan oleh Audi, misalnya Audi A6.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Econodrive  </h2>
+					<p>
+	<strong>Econodrive Indikator </strong>pencatat pemakaian bahan bakar dengan tujuan agar si pengemudi dapat menghemat bahan bakar. Teknologi ini ada pada BMW. Caranya cukup perhatikan angka-angka di jalur pergerakan jarum juga satuan di bawahnya. Misalnya terdapat satuan 20/100 berarti 20 liter untuk 100 km.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>EEC</h2>
+					<p>
+	<strong>EEC</strong> Evaporatif Emmision Control adalah Sistem Pengontrol Emisi Evaporatif dipasang untuk kendaraan berbahan bakar bensin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electric Diesel Injection Control (EDIC</h2>
+					<p>
+	<strong>Electric Diesel Injection Control (EDIC</strong>) Berfungsi untuk memudahkan dalam menghidupkan dan mematikan mesin melalui kunci kontak pada mesin diesel.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electrocat Diesel Particular Filter (DPF) </h2>
+					<p>
+	<strong>Electrocat Diesel Particular Filter (DPF) </strong>Teknologi dari Inggris untuk menyaring gas buang pada kendaraan bermesin diesel agar lebih ramah lingkungan. Emisi gas buang rendah namun tetap irit. PDF dapat beroperasi pada suhu rendah dan membersihkan sendiri gas buang tanpa bantuan additif. DF juga tidak terpengaruh dengan besarnya kadar belerang di solar.</p>
+<p>
+	PDF menggunakan filter plasma untuk membersihkan segala bentuk partikel karbon termasuk ultrafine. PDF juga menghilangkan segala bentuk gas hidrokarbon termasuk gasgas yang diduga bersifat karsinogenik (penyebab kanker).&nbsp;</p>
+<p>
+	PDF dikembangkan dengan teknologi elektrokat memakai gas plasma. Gas ini telah mengalami ionisasi dengan arus&nbsp;listrik ketika menembus saringan. Reaksi kimia tersebut berlangsung di suhu rendah dimana emisi gas buang potensial terjadi lebih besar. Penyaringan gas beracun dapat dilakukan tanpa bantuan konverter katalitik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electromotoren</h2>
+					<p>
+	<strong>Electromotoren</strong> Adalah motor yang dapat hidup&nbsp;karena mendapatkan aliran listrik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electronic Control Unit (ECU)</h2>
+					<p>
+	<strong>Electronic Control Unit (ECU)</strong> Merupakan suatu perangkat elektronik yang terorganisir. Bisa menerima dan memberi sinyal listrik pada semua kendaraan yang menggunakan sistem EFI (Electronik Fuel Injection) atau MPI (Multi Point Injection). ECU menggunakan sistem bahasa komputer dan berguna untuk menyimpan data-data kerusakan sensor (trouble shooting) pada sistem memorinya.</p>
+<p>
+	Kegunaan ECU pada kendaraan untuk menghitung beberapa banyaknya campuran BBM dan sistem pengapian. ECU juga dapat untuk mendeteksi: Pengapian (3 sensor), BBM (2 sensor), Udara (2 sensor), Tehnik pendinginan pada idle switch dan kompresor, Coolant (2 sensor), Rpm (takometer), Airbag dan ABS.</p>
+<p>
+	Masa pakai ECU antara 8-12 tahun.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electronic Fuel Injection (EFI)</h2>
+					<p>
+	<strong>Electronic Fuel Injection (EFI)</strong> Sistem yang dikendalikan komputer, yang menginjeksi bahan bakar langsung ke dalam ruang bakar. Waktu penyemprotan dan banyaknya pasokan bensin diatur komputer. Lebih efisien karena pasokan bahan bakarnya presisi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electronic Traction Control (ETC)</h2>
+					<p>
+	<strong>Electronic Traction Control (ETC</strong>) Menggantikan peran differential lock. Pada prinsipnya menjaga agar keempat roda tetap menapak di segala medan. Contohnya saat mendaki bukit dengan trek kering plus kerikil, satu saat ada kemungkinan ban memutar di tempat.</p>
+<p>
+	Kalau ETC diaktifkan, sensor mengalihkan konsentrasi traksi ke ban yang menjejak mantap. Sementara yang spin dikurangi sehingga mobil tetap melaju. Sistem ini terdapat pada Land Rover Discovery II</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Electronically Controlled Air Suspension (ECAS) </h2>
+					<p>
+	<strong>Electronically Controlled Air Suspension (ECAS) T</strong>eknologi suspensi udara yang diatur secara elektronis terdiri dari rangkaian kompresor, penjaga kelembapan udara, elektronik control unit, katup solenoid dan dudukan pemegangnya yang dipasang persis di balik kedua roda belakang. ECAS diproduksi oleh WABCONorth America.</p>
+<p>
+	Cara kerjanya sepasang sensor di belakang memonitor sudut bodi dan sasis. Begitu ada pergeseran dari normal, antara kiri-kanan atau depan belakang, unit kontrol segera memerintahkan kompresor bekerja. Udara dipompakan ke salah satu dari dua buah kantong yang menggantikan per keong di lengan suspensi belakang.</p>
+<p>
+	Jika kelebihan beban, secara otomatis suspensi akan mogok bekerja. ECAS juga dapat digunakan untuk memompa ban.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Elektrolit </h2>
+					<p>
+	<strong>Elektrolit </strong>Asam sulfur dan larutan air dalam baterei mobil yang memproduksi listrik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Emmisimeter </h2>
+					<p>
+	<strong>Emmisimeter </strong>Untuk menghitung emisivitas kaca film guna menentukan nilai insulasi film (U-value).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ENCS</h2>
+					<p>
+	<strong>ENCS</strong> Exhaust Noise Control System, alat baru yang ditanamkan dalam Lamborghini Diablo 6.0 untuk bekerja mengatur level modulasi kebisingan pada kecepatan mesin yang berbeda. Alat yang bersifat variabel geometris ini berfungsi berdasarkan input elektronis</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Engine Analyzer </h2>
+					<p>
+	<strong>Engine Analyzer </strong>Alat untuk menganalisis kerusakan mobil yang mempunyai sistem pasokan bahan bakar elektronik untuk mobil dengan sistem ECU (Electronic Control Unit). Analisis yang dilakukan bersifat menyeluruh sehingga semua sensor dalam mobil dapat terdeteksi.</p>
+<p>
+	Adapun yang dapat dideteksi adalah waktu pengapian, air bag, sistem rem ABS, jumlah bahan bakar yang disemprotkan ke ruang bakar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Engine Immobilizer</h2>
+					<p>
+	<strong>Engine Immobilizer</strong> Perangkat keamanan berupa ID code yang tersimpan dalam kunci kontak dan terkoneksi ke ignition system. Bila kodenya pas, maka immobilizer akan non aktif dan mesin hidup.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Engine knock sensor </h2>
+					<p>
+	<strong>Engine knock sensor </strong>Tehnologi ini ada di mobil Jaguar. Fungsinya adalah memantau apakah ada gejala ngelitik atau tidak.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Engsel peluru </h2>
+					<p>
+	<strong>Engsel peluru </strong>Peluru dan soket yang digunakan sebagai sambungan dalam lengan kemudi, sama seperti sendi pada tubuh manusia.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ergonomis</h2>
+					<p>
+	<strong>Ergonomis</strong> Bisa dijangkau dengan mudah</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>ESP Electronic Stability </h2>
+					<p>
+	<strong>ESP Electronic Stability </strong>Program, anti over steer &amp; under steer. Teknologi suspensi Mercedes Benz. Basic cara kerjanya adalah mengontrol laju pengendaraan dengan secara selektif memberikan pengereman pada roda yang paling membutuhkan. Dalam kondisi jalan lurus, kendaraan pun melaju lurus di permukaan jalan rata, maka pengereman terpusat pada keempat roda secara bersamaan.</p>
+<p>
+	Namun jika jalan berbelok atau mobil melaju berbelok atau kondisi jalan tidak rata. maka beban pengereman tidaklah terpusat pada ke empat roda secara merata. ESP mengatur pengereman sedemikian rupa agar mobil tidak kehilangan kendali sekalipun pengereman tiba-tiba sewaktu berbelok disertai kecepatan tinggi.</p>
+<p>
+	ESP bekerja dengan sensor elektronis (48 kilobyte) yang keseluruhannya mengontrol akselerasi, pengereman di berbagai jenis kondisi jalanan, mengontrol putaran masingmasing roda, menurunkan rpm&nbsp;untuk pada kondisi tertentu untuk menghindari selip.</p>
+<p>
+	Sistem ini akan bekerja secara terpadu dengan Anti-locking Brake System (ABS), Acceleration Slip Regulation (ASR), Engine Brake Regulation (EBR) dan Electronic Control Unit (ECU) dari mesin dan transmisi. Jika terjadi kondisi kritis, sensor ESP di seluruh mobil memberi sinyal untuk mengontrol seluruh sistem. Efeknya, bila terjadi oversteer atau understeer di tikungan, ESP merekam karakter kendaraan dan mengontrol tekanan rem pada setiap roda secara selektif.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Exhaust gas admission</h2>
+					<p>
+	<strong>Exhaust gas admission</strong> jalan masuk gas buang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Exhaust gas outflow</h2>
+					<p>
+	<strong>Exhaust gas outflow</strong> saluran keluar gas buang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Exhaust gas temperature gauge </h2>
+					<p>
+	<strong>Exhaust gas temperature gauge </strong>Pengukur suhu yang bersensor di manifold. Alat ini juga dilengkapi lampu indikasi mirip takometer yang nyala bila terjadi perubahan suhu. Bila ada perubahan suhu, manajemen mesin perlu ditinjau kembali.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Exhaust manifold </h2>
+					<p>
+	<strong>Exhaust manifold </strong>Saluran yang menghubungkan kepala silinder dengan saluran buangan gas sisa pembakaran.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Exhaust pipe</h2>
+					<p>
+	<strong>Exhaust pipe</strong> pipa gas buang Exterior Airbag Kantung udara yang didesain di eksterior oleh Ford Amerika tujuannya untuk menyelamatkan atau mengurangi cedera yang lebih parah ketika pejalan kaki tertabrak.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>F</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fender</h2>
+					<p>
+	<strong>Fender</strong> Bagian dari bodi depan mobil yang terletak di atas ban. Wajah atau moncong mobil terdiri dari 3 bagian besar, pertama adalah kap tutup mesin, lalu grill yang ada di antara kedua lampu depan dan Fender di samping yang jadi &lsquo;pipi&rsquo; dari wajah mobil.</p>
+<p>
+	Biasanya terbuat dari metal tapi ada juga yang terbuat dari plastik keras seperti fender mobil Corvette atau Saturn.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>FIA</h2>
+					<p>
+	<strong>FIA</strong> Federation Internationale de L&rsquo;Automobile. Sebuah organisasi bermarkas di Paris, yang mengurusi berbagai peraturan perjalanan otomotif di luar negeri. Banyak organisasi otomotif sedunia yang mengacu pada organisasi ini.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Flag </h2>
+					<p>
+	<strong>Flag </strong>Petugas pemegang bendera pada arena balap mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Flat Out </h2>
+					<p>
+	<strong>Flat Out </strong>Turun 2 gigi (X track) misal gigi 4 flat out di gigi 6</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fluida Transmisi </h2>
+					<p>
+	<strong>Fluida Transmisi </strong>Digunakan untuk memindahkan torsi ke konverter torsi, memindahkan tekanan hidrolik, melumasi bagian-bagian yang bergerak, dan memindahkan panas.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Flywheel</h2>
+					<p>
+	<strong>Flywheel</strong> Gunanya untuk meneruskan putaran kruk as agar ia tidak mudah berhenti.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Foeler </h2>
+					<p>
+	<strong>Foeler </strong>Merupakan bilah ukur terbuat dari logam tipis, pipih yang&nbsp;berfungsi untuk mengukur kecepatan lebar celah katup, celah busi, celah platina, dsb. Lembar bilah ukur memiliki ketebalan yang berbeda-beda. Bilah ukur digunakan dalam posisi lurus (tidak miring) untuk menghindari kesalahan pembacaan hasil pengukuran</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fog Lamp </h2>
+					<p>
+	<strong>Fog Lamp </strong>Fungsinya menyempurnakan penerangan pada permukaan dan pinggiran jalan ketika mengemudi di cuaca berkabut, hujan lebat atau melalui jalan berdebu. Bentuk sinar lampu kabut persis lampu depan, menyebar ke samping.</p>
+<p>
+	Sinarnya dibatasi horizontal agar cuma menerangi permukaan jalan tak mengarah ke atas. Lampu kabut umumnya ditempatkan di bumper depan. Jarak terendahnya dari aspal tak kurang dari 25 cm.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fog Warning Lamp </h2>
+					<p>
+	<strong>Fog Warning Lamp </strong>Sama-sama menjadi lampu kabut tapi dipasang di bagian belakang mobil. Berwarna merah dan memiliki intensitas sinar lebih terang ketimbang lampu belakang atau lampu rem.</p>
+<p>
+	Meski terpasang di tempat yang sama dengan lampu belakang, fog warning lamp punya tombol terpisah untuk mengaktifkan. Lampu ini wajib dilengkapi indikator warna kuning di dashboard.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Follow Me Home</h2>
+					<p>
+	<strong>Follow Me Home</strong> Sistem yang bisa membuat lampu depan dan kabin menyala selama 45 detik, meskipun pengemudinya telah mencabut kunci kontak dan beranjak keluar mobil.&nbsp;</p>
+<p>
+	Tujuannya agar pengemudi tetap mendapatkan cahaya yang cukup, sesaat sebelum turun bahkan setelah meninggalkan mobil. Tehnologi ini ada pada Peugeot 307.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Footrest </h2>
+					<p>
+	<strong>Footrest </strong>Alas kaki tambahan yang terbuat dari plat logam bercorak (bordes) yang ditempatkan di dek navigator mobil sport. Bentuknya tidak terlalu besar (pijakan dua telapak kaki) dan dipasang berdasarkan sudut tertentu (adjustable).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Forged Alloy</h2>
+					<p>
+	<strong>Forged Alloy</strong> Sebutan untuk logam yang ditempa sehingga memiliki kekerasan tingkat tinggi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Formula Plate</h2>
+					<p>
+	<strong>Formula Plate</strong> Alas kaki tambahan yang ditempatkan di atas dek pengemudi dan penumpang depan pada mobil sport. Namun materialnya lebih ringan didukung finishing berkelir silver atau titanium agar asosiasi ringan semakin terlihat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Four Wheel Drive </h2>
+					<p>
+	<strong>Four Wheel Drive </strong>Istilah 4 WD ini menunjukkan bahwa mobil yang menggunakan sistem 4 WD mempunyai 4 roda yang menarik mobil tersebut. Untuk kendaraan yang menggunakan 4 WD jelas lebih bertenaga karena ke empat rodanya yang membawa lari mobil tersebut.</p>
+<p>
+	Pada awal 1900 teknologi 4WD diterapkan ke truk karena fungsi angkut yang mengharuskan truk bertenaga tarikan besar. Pada Perang Dunia II teknologi 4 WD di terapkan ke Jeep militer CJ oleh perusahaan Ford, untuk&nbsp;memberikan daya jelajah yang tinggi.</p>
+<p>
+	Setelah sukses mendukung kendaraan militer, teknologi 4 WD menjadi terkenal dan diadopsi oleh berbagai fabrikan otomotif, seperti Chevrolet. Kini, jenis mobil yang menggunakan 4 WD adalah SUV, offroad, dan kendaraan segala medan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Four Wheel Electronic Traction Control (4ETC)</h2>
+					<p>
+	<strong>Four Wheel Electronic Traction Control (4ETC)</strong> Cara kerjanya sistem ini adalah sensor kendali traksi yang ditempatkan di setiap roda, mesin dan transmisi akan mendeteksi gejala selip, output tenaga dari mesin dan efektivitas penggunaan gigi pada transmisi.</p>
+<p>
+	Rangkaian pendeteksi ini akan mengirim sinyal pada ECU untuk mengurangi atau meningkatkan tenaga pada roda yang traksinya melemah supaya mobil bisa jalan terus tanpa perlu pengoperasian gigi. Anda tinggal injak gas perlahan lalu maju sedikit, komputer akan memutuskan beberapa tenaga yang diperlukan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Free For All </h2>
+					<p>
+	<strong>Free For All </strong>Kelas paling bergengsi untuk drag dengan NOS, Turbo atau Turbocharger</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Freon 12 </h2>
+					<p>
+	<strong>Freon 12 </strong>:Zat pendingin fluorokarbon yang pernah digunakan dalam sistem pendingin udara mobil, sekarang dilarang karena berbahaya bagi lapisan ozon dibumi</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Front Pipe</h2>
+					<p>
+	<strong>Front Pipe</strong> :pipa buang bagian depan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Front Wheel Alignment </h2>
+					<p>
+	<strong>Front Wheel Alignment :</strong> Proses pengukuran sudut yang sesuai antara sistem kemudi dan setir. Tujuannya untuk membuat sistem kemudi jadi ringan dan stabil serta memperpanjang umur pemakaian ban.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Front Wheel Drive :Sistem</h2>
+					<p>
+	<strong>Front Wheel Drive :Sistem</strong> penggerak roda belakang. Sistem ini mentransmisikan daya dari poros engkol ke roda-roda depan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fuel Pressure Regulator </h2>
+					<p>
+	<strong>Fuel Pressure Regulator </strong>:Umumnya terdapat di mesin berinjektor. Bentuknya tabung mirip jamur yang dilengkapi jalur fuel by pass dan dipasang pada fuel line di modul injektor demi efisiensi balik di bawah bodi.</p>
+<p>
+	Berfungsi saat mesin ber-akselerasi atau sebaliknya. Di dalamnya bekerja diafragma buka tutup yang mengatur tekanan bensin masuk ke ruang bakar sesuai tingkat kevakuman mesin.</p>
+<p>
+	Saat akselerasi menyuplai tekanan ekstra dan instan, sedangkan deselerasi membuang muatan over boost melalui jalur by-pass ke tangki bensin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fuel pump</h2>
+					<p>
+	<strong>Fuel pump</strong> : pompa bahan bakar gunanya untuk memompakan bensin dari tangki yang dialirkan masuk ke dalam karburator</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Fuel pump belt </h2>
+					<p>
+	<strong>Fuel pump belt :</strong> sabuk pompa bahan bakar</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Funny Car </h2>
+					<p>
+	<strong>Funny Car -&nbsp;</strong>Body full carbon fiber (Graphite), boleh memodifikasi body tapi lampu rem, lampu depan dan sein harus standard pabrik. 8200 cc, bahan bakar nitro methane, super charger, berat min 1.023 kg</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>FWD </h2>
+					<p>
+	<strong>FWD : Front Wheel Drive </strong>: mobil yang roda depannya digerakkan oleh mesin sedangkan roda belakang hanya mengikuti saja.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>G</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gasket</h2>
+					<p>
+	Lapisan melingkar di atas speaker ini jamak berada di posisi terdepan dari subwoofer. Komponen yang satu ini adalah bagian dari cone. Fungsi jamaknya sebagai pengikat cone.</p>
+<p>
+	Gasket banyak berperan pada performa getaran yang ada di cone. Bahan yang biasa dipakai adalah kertas yang tebal, selain karet, plastik atau lempengan timah.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gasoline Direct Injection </h2>
+					<p>
+	<strong>Gasoline Direct Injection </strong>Sistem injeksi bahan bakar dari Mitsubishi yaitu mesin bensin injeksi langsung ke ruang bakar dan tidak lagi dicampur dengan udara di saluran masuk (intake) seperti sistem EFI pada Toyota. Hasilnya konsumsi BBM lebih hemat sekitar 20% dan tingkat emisi (CO2) turun 20%.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gasoline pump</h2>
+					<p>
+	<strong>Gasoline pump</strong> pompa bensin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gauge </h2>
+					<p>
+	<strong>Gauge </strong>Perangkat display dari instrumen yang memperlihatkan jumlah bahan bakar di dalam tangki mobil, jumlah ampere dan voltase, ukuran km/jam yang ditempuh, rpm dari kendaraan, bahkan tekanan oli. Semuanya didisplay di dashboard sejajar dengan jarak pandang lurus si pengemudi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gawang</h2>
+					<p>
+	<strong>Gawang</strong> Wing spoiler. Letaknya di atas bagasi, bentuknya seperti tiang gawang sepakbola.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>GDL </h2>
+					<p>
+	<strong>GDL </strong>Gas Discharge Lamp, sebutan teknik untuk lampu yang menggunakan gas xenon</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gear Segment</h2>
+					<p>
+	<strong>Gear Segment</strong> Bagian dari sistem penggerak power windows. Sebuah motor pengendali pacu elektronik yang mengirimkan kekuatan mekanis pada jendela konvensional melalui gear segment.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gear Shift Travel Shortage </h2>
+					<p>
+	<strong>Gear Shift Travel Shortage </strong>Perpindahan transmisi pendekpendek dan lebih cepat</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gear Shift Travel Shortage</h2>
+					<p>
+	<strong>Gear Shift Travel Shortage</strong> Perpindahan transmisi pendekpendek dan lebih cepat</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gemuk</h2>
+					<p>
+	<strong>Gemuk</strong> Semacam sabun yang merupakan campuran antara minyak bumi, minyak sintetis dan zat bersifat pasta.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Generator</h2>
+					<p>
+	<strong>Generator</strong> Gunanya untuk menambah stroom dari aki apabila stroomnya sudah berkurang/terpakai.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gerakan empat roda </h2>
+					<p>
+	<strong>Gerakan empat roda </strong>sistem gerakan yang mendistribusikan tenaga mesin ke seluruh empat roda.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Gerakan roda depan</h2>
+					<p>
+	<strong>Gerakan roda depan</strong> sistem gerakan yang mendistribusikan tenaga mesin ke roda di bagian depan kendaraan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Governor </h2>
+					<p>
+	<strong>Governor </strong>Merupakan komponen pada mesin diesel yang berfungsi mengatur volume semprotan solar nosel sesuai beban mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>GPS </h2>
+					<p>
+	<strong>GPS </strong>Global Positioning Satellite. Perangkat canggih berteknologi satelit yang di kembangkan untuk melacak lokasi sebuah objek di permukaan bumi. Kini GPS digunakan oleh kapal-kapal di lautan, penunjuk arah di mobil-mobil kelas mewah, bahkan GPS juga tersedia dalam&nbsp;bentuk handy portable alias bisa dibawa kemana-mana.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Grid marshall </h2>
+					<p>
+	<strong>Grid marshall </strong>Petugas yang berada hanya di daerah start pada perlombaan balap mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Grip</h2>
+					<p>
+	&nbsp;Gigitan ban</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Grooved  Tyred</h2>
+					<p>
+	<strong>Grooved Tyred</strong> Ban bertelapak kembang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ground Clearance </h2>
+					<p>
+	<strong>Ground Clearance </strong>Adalah jarak antara bagian bodi mobil yang paling terbawah dengan permukaan jalan, alias kolong mobil. Biasanya Ground Clearance masing-masing mobil berbeda-beda dan sangat bervariasi. Untuk mobil dengan roda bigfoot, Ground Clearance bisa setinggi 1-2 meter sebaliknya untuk mobil yang dimodifikasi hingga &lsquo;ceper&rsquo;, jarak Ground Clearance-nya bisa hanya 10 hingga 15 cm.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Guarddrail </h2>
+					<p>
+	<strong>Guarddrail </strong>Pagar pembatas di sirkuit</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>H</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hairpin </h2>
+					<p>
+	<strong>Hairpin </strong>Tikungan tajam (tusuk konde)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hardtop</h2>
+					<p>
+	<strong>Hardtop</strong> Atap yang tebal dari bahan keras</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hatchback </h2>
+					<p>
+	<strong>Hatchback </strong>Sebutan untuk sedan biasa yang punya ekor untuk space atau ruang untuk menempatkan bagasi. Mobil jenis hatchback adalah mobil yang lebih compact dari sedan. Salah satunya cirinya adalah meniadakan ekor mobil&nbsp;sehingga memperpendek panjang mobil. Mobil-mobil tersebut tak memiliki &ldquo;buntut&rdquo;, sehingga bagasinya menyatu dengan ruang penumpang.</p>
+<p>
+	Untuk mencapai bagian tersebut, seluruh bagian belakang termasuk kaca belakang harus dibuka ke atas. Contohnya : Toyota Starlet, Peugeot 206, Nissan Micra atau Mercedes-Benz A-Class.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hatchback</h2>
+					<p>
+	<strong>Hatchback</strong> Mobil tanpa buntut</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>HDC</h2>
+					<p>
+	<strong>HDC</strong> Hill Descent Control</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Headlight </h2>
+					<p>
+	<strong>Headlight </strong>lampu besar terletak di depan mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Headrest</h2>
+					<p>
+	<strong>Headrest</strong> Sandaran kepala pada jok</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Heel & Toe </h2>
+					<p>
+	<strong>Heel &amp; Toe </strong>Kelincahan teknik kemudi, ketepatan penggunaan perseneling dan kelincahan gerak tapak kaki</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>High lug nut</h2>
+					<p>
+	<strong>High lug nut</strong> Baut roda dengan ukuran lebih panjang. Sehingga, tampilannya melebihi permukaan bawah tengah velg.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>High Speed Glazing </h2>
+					<p>
+	<strong>High Speed Glazing </strong>Kerusakan pada busi yang ditandai dengan insulator berwarna kekuning-kuningan. Hal tersebut menunjukkan temperatur ruang pengapian naik tiba-tiba sewaktu melakukan akselarasi. Endapan mencair kemudian membentuk&nbsp;lapisan konduktif. Sehingga mengakibatkan &lsquo;ngadat&rsquo; pada kecepatan tinggi</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hill Descent Control (HDC)</h2>
+					<p>
+	<strong>Hill Descent Control (HDC)</strong> Teknologi yang terdapat pada Land Rover Discovery II ini merupakan teknologi yang mengatur rem. Artinya, komputer mengatur putaran roda agar tetap konstan. Ini terjadi dengan mengaktifkan rem secara bergantian depan belakang dengan ritme tertentu. HDC dapat diaktifkan dalam berbagai posisi gigi, namun baru dapat bekerja saat gigi 1 atau R (mundur). Caranya dengan menekan tombol bergambar mobil yang sedang menuruni bukit.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hill Holder </h2>
+					<p>
+	<strong>Hill Holder </strong>Berfungsi menahan mobil waktu memindahkan kaki dari pedal rem ke gas, yang bisa menyebabkan merosot mundur. Sistemnya bekerja saat tunggangan terpaksa berhenti pada jalan menanjak, ketika pedal rem dan kopling ditekan bersamaan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hood </h2>
+					<p>
+	<strong>Hood </strong>Adalah sebutan untuk kap tutup depan moncong mobil. Hubcap Dop hiasan roda</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Horsepower </h2>
+					<p>
+	<strong>Horsepower </strong>Satuan pengukuran tenaga atau rasio kerja yang sudah dihasilkan. Di Indonesia cukup diterjemahkan sebagai &lsquo;tenaga kuda&rsquo;. Yang perlu diperhatikan, penggunaan satuan tenaga serupa di Amerika Serikat menggunakan istilah ft-lb yaitu ft (feet) dan lb satuan tekanan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hot Rod </h2>
+					<p>
+	<strong>Hot Rod </strong>Sebutan Mobil klasik yang digunakan produksi th. 50 an di Amerika bermesin bongsor, tujuannya melecehkan mobil polisi yang mengejarnya.&nbsp;Desainnya berbentuk bodi membulat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hybrida </h2>
+					<p>
+	Perpaduan antara mesin bensin dan motor listrik</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Hydraulic </h2>
+					<p>
+	<strong>Hydraulic unit</strong> Alat yang terpasang di batang poros utama ini berfungsi untuk menggerakkan mekanisme roda gigi.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>I</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Idiosyncratic </h2>
+					<p>
+	<strong>Idiosyncratic </strong>Cara mengemudi yang tidak lazim Idle Speed Control Valve Yaitu komponen pengatur udara di fuel injection yang menjamin campuran bahan bakar dan udara makin sempurna</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Idle system </h2>
+					<p>
+	<strong>Idle system </strong>Sistem dalam karburator yang menjaga aliran bahan bakar tetap normal ketika mesin tidak bekerja. Ignition Penyalaan api pembakaran.</p>
+<p>
+	Berbeda dengan diesel yang menyalakan pembakaran bahan bakar dengan sistem panas hasil kompresi, system ignition menyalakan pembakaran dengan menangkap percikan api yang dibuat melalui rangkaian antara pembangkit tenaga&nbsp;accumulator (aki), kumparan, dan busi sebagai pemicu.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ignition coil </h2>
+					<p>
+	<strong>Ignition coil </strong>kumparan penyalaan yang berfungsi untuk menaikkan tegangan dari tegangan baterai 12V menjadi (25.000 V &ndash; 47.000 V) agar dapat terjadi loncatan bunga api listrik pada elektroda busi sehingga dapat memungkinkan terjadinya pembakaran di ruang bakar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ignition Switch</h2>
+					<p>
+	<strong>Ignition Switch</strong> Gunanya untuk menghubungkan aliran listrik yang akan dipergunakan untuk menghidupkan mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Immobilizer </h2>
+					<p>
+	<strong>Immobilizer </strong>Fungsi utamanya untuk melindungi kendaraan dari akses yang tidak diinginkan pemiliknya. Cara kerjanya dengan memutuskan aliran pada sistem kelistrikan dan bahan bakar, sehingga dengan cara apapun mobil tidak akan bisa dihidupkan kecuali oleh pemiliknya dengan kunci kontak asli.</p>
+<p>
+	Rangkaian immobilizer terdiri dari kunci kontak, antena koil, transceiver, dan controller. Bila salah satu komponen ini rusak, maka immobilizer tidak bisa berfungsi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Indeks Viskositas</h2>
+					<p>
+	<strong>Indeks Viskositas</strong> Suatu angka yang menunjukkan besarnya perubahan kekentalan suatu minyak pelumas bila terjadi perubahan suhu. Apabila suhu naik maka kekentalan minyak pelumas akan turun.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Indicator Timing Belt</h2>
+					<p>
+	<strong>Indicator Timing Belt</strong> Fungsinya untuk mengingatkan pengemudi ketika masa pakai 20&nbsp;timming belt sudah cukup lama (100.000 km) dan itu berarti pemilik mobil sudah saatnya mengganti timming belt. Sinyal ini ada di Toyota Kiang diesel.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Indirect Injection</h2>
+					<p>
+	<strong>Indirect Injection -&nbsp;</strong>Sistem injeksi bahan bakar mesin diesel disebut diesel injeksi tidak langsung. Solar diinjeksikan oleh nosel injektor ke dalam ruang bakar tambahan sebelum menuju ruang bakar utama.</p>
+<p>
+	Dengan demikian, hasil penyalaan solar dapat berekspansi lebih cepat untuk meningkatkan efisiensi pembakaran.&nbsp;</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Individual Intake Manifold by BMW </h2>
+					<p>
+	<strong>Individual Intake Manifold by BMW -&nbsp;</strong>Saluran isap yang bisa dikontrol terpisah</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Inflatable Curtain </h2>
+					<p>
+	<strong>Inflatable Curtain</strong> Proteksi untuk mencegah cedera kepala</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Inlet manifold </h2>
+					<p>
+	<strong>Inlet manifold </strong>Berfungsi untuk membantu menyempurnakan pencampuran bahan bakar dan udara dari karburator kemudian membagi campuran itu ke setiap silinder dengan merata</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Inlet valve </h2>
+					<p>
+	<strong>Inlet valve </strong>katup pemasukan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Inline</h2>
+					<p>
+	<strong>Inline</strong> Istilah mesin &lsquo;inline&rsquo; adalah menunjukkan jenis mesin dimana semua silindernya terletak berjajar. Sering disbut juga straight, misalnya &lsquo;straight 8&prime; yang berarti jumlah silindernya ada 8 dan kesemuanya berjajar.</p>
+<p>
+	Atau&nbsp;&lsquo;straight 4&prime; yang berjumlah silinder 4 dengan posisi yang sama. Konsekuensi dari mesin &lsquo;inline&rsquo; adalah moncong mobil jadi lebih panjang ketimbang konfigurasi &lsquo;V-engine&rsquo; yang bisa membuat moncong mobil-mobil bermesin&nbsp;depan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendekdepan jadi lebih pendek</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Instrument Panel Display (IPD) </h2>
+					<p>
+	<strong>Instrument Panel Display (IPD) </strong>Alat ini berfungsi sebagai indikator kerusakan. Jika warning lamp menyala berarti ada masalah yang timbul. Masalah yang timbul terbagi menjadi 2 tingkatan yaitu minor dan mayor. Masalah minor dianggap sebagai sesuatu yang tidak mempengaruhi keseluruhan sistem.</p>
+<p>
+	Namun jika masalah mayor berarti ada masalah yang bisa menentukan kemampuan mesin itu sendiri misalnya tenaga mesin jadi hilang, bahan bakar boros, atau gas buang berwarna. IPD meliputi service indocator, engine oil level indicator dan total distance recorder. Instrument ini ECU yang terpasang pada mesin injeksi.</p>
+<p>
+	Masing-masing mobil memiliki indikator IPD dengan tanda yang berbeda-beda misalnya pada Peugeot 206, indikator minor berbentuk siluet kunci pas, jika indikator menyala berarti masa servis tinggal 1.000 km lagi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Intake Manifold</h2>
+					<p>
+	Saluran yang menghubungkan karburator dengan kepala silinder</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Intervehicular distance alarm</h2>
+					<p>
+	<strong>Intervehicular distance alarm</strong> Sistem yang ditawarkan oleh perusahaan truk Jepang, Hino. Sistem ini menggunakan sinar infra merah yang akan mengingatkan pengemudi tentang jalanan di depannya</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Intrusion Alert With Memory</h2>
+					<p>
+	<strong>Intrusion Alert With Memory</strong> Fitur pada alarm yang berfungsi bahwa alarm mampu memberikan laporan kepada pemilik mobil tentang jenis gangguan yang pernah dialami. Caranya dengan memperhatikan kode yang diberikan melalui kedipan lampu indikator di dalam kabin. Setiap jenis kedipan mewakili jenis gangguan berbeda.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>J</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Jack  </h2>
+					<p>
+	<strong>Jack I</strong>stilah yang digunakan di Amerika untuk dongkrak.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Jaket Air </h2>
+					<p>
+	<strong>Jaket Air </strong>Adalah suatu ruangan yang mengelilingi silinder dan ruang bakar yang berisi air mengalir guna mengambil panas dari logam/metal di sekitarnya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Jounce</h2>
+					<p>
+	<strong>Jounce</strong> Adalah lompatan atau reaksi maju &ndash; kemuka- dari suspensi dan roda kendaraan saat terjadi benturan di daerah moncong kendaraan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Jumper </h2>
+					<p>
+	Kabel Jumper, sebuah set kabel elektrik berisolasi yang digunakan untuk menyalakan&nbsp;mesin mobil dengan menggunakan power unit seperti accu eksternal.</p>
+<p>
+	Kabel tersebut di sambungkan di ujung-ujungnya, satu ke terminal positif, yang lainnya ke terminal negativ. Untuk memberikan sambungan yang mengikat, ujung-ujung kabel di lengkapi jepitan untuk menjepit terminal-terminal accu-nya.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>K</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kabel Bowden</h2>
+					<p>
+	<strong>Kabel Bowden</strong> fleksible Bagian dari power windows. Motor listrik menstransfer kekuatan melalui kabel Bowden fleksible Kabel penggerak stiff Bagian dari power windows. Gigi penggerak (gear driven), torsi, dan kabel stiff resistan menyediakan koneksi antara motor dan jendela.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kaliper rem</h2>
+					<p>
+	<strong>Kaliper rem</strong> Onderdil pada sistem rem teromol yang menerima tekanan dari sepatu rem</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kamm tail </h2>
+					<p>
+	<strong>Kamm tail </strong>Bentuk desain badan kendaraan yang diciptakan oleh pakar aerodinamis dari Jerman yang bernama Dr. Wunibald Kamm, yang menemukan bentuk runcing dari ekor yang terpotong.</p>
+<p>
+	Bentuk ekor yang streamlined yang sempurna dulu merupakan perwujudan dari bentuk elips atau mengerucut. Kamm&nbsp;membuktikan bahwa desainnya memberikan sebuah percepatan aerodinamis dengan memotong ekor secara &lsquo;penampang silang&rsquo;.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kantong udara </h2>
+					<p>
+	<strong>Kantong udara </strong>Sistem penahanan yang memompa kantong-kantong tersembunyi apabila sensor di bagian depan mobil terkena benturan / tabrakan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Karburator</h2>
+					<p>
+	<strong>Karburator</strong> Alat pencampur bahan bakar dengan udara sehingga mudah terjadi pembakaran dan pengiriman energi ke mesin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Katalistik Konverter</h2>
+					<p>
+	<strong>Katalistik Konverter</strong> Digunakan untuk mereduksi / menurunkan emisi / cemaran gas buang. Merupakan bahan yang bereaksi secara kimia pada gas buang yang dapat mereduksi sejumlah hidrokarbon dan karbon monoksida dalam gas buang. Dipasang pada pipa buang di samping mesin mufler.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Katoforetik  </h2>
+					<p>
+	<strong>Katoforetik </strong>Proses penempelan bahan pelindung bodi mobil. Bahan primer atau meni bisa menempel dengan sempurna di struktur bodi.</p>
+<p>
+	Caranya : bagian logam diberi muatan positif menjadikan bagian katoda yang kemudian dicelup ke cairan bermuatan negatif. Perbedaan muatan akan menyebabkan tarik menarik yang membuat proses terjadinya secara sempurna.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Katup </h2>
+					<p>
+	<strong>Katup </strong>Terletak di atas blok silinder. Berguna untuk mengatur aliran gas buang baik keluar maupun ke dalam ruang pembakaran akibat tekanan piston.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kemudi servo </h2>
+					<p>
+	<strong>Kemudi servo </strong>Unit hidraulik yang memperbesar gerakan pengemudi untuk&nbsp;mengemudikan mobil dengan lebih mudah.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kepala Silinder</h2>
+					<p>
+	<strong>Kepala Silinder</strong> ke bagian atas kepala silinder mampu memberikan pembakaran balik ke piston. Salah satu bagian dari mesin yang terletak paling atas. Berfungsi untuk menutupi bagian blok silinder, sehingga tekanan dari piston</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kickdown</h2>
+					<p>
+	<strong>Kickdown</strong> Tombol atau sambungan yang memindahkan transmisi otomatis ke persneling lebih rendah ketika pedal gas ditekan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Klakson </h2>
+					<p>
+	<strong>Klakson </strong>Adalah suatu peringatan yang mengeluarkan suara sehingga memungkinkan pengemudi memberi peringatan kepada pemakai jalan lainnya. Klakson elektrik ditempatkan di depan kendaraan atau unit mesin. Tombol klakson biasanya dipasang bersamaan dengan pasangan roda kemudi atau pada kolom kemudi.</p>
+<p>
+	Sakelar relai elektromagentik termasuk dalam sirkuit klakson sehingga sakelar klakson tidak bisa dialiri aliran arus tinggi yang diperlukan oleh klakson. Sakelar klakson biasanya ditempatkan di bawah panel instrumen atau bagian unit mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Klep Relief </h2>
+					<p>
+	<strong>Klep Relief </strong>Suatu katup yang terpasang pada saluran utama oli mesin. Katup ini berguna mencegah tekanan berlebihan dari suplai yang terlalu besar karena kecepatan tinggi yang dioperasikan, atau persediaan oli mesin yang sudah berkurang dari standar minimum.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Knee Bar </h2>
+					<p>
+	<strong>Knee Bar -&nbsp;</strong>Panel di bawah dashboard untuk mencegah penumpang depan terbawa atau terdorong ke bawah (dashboard) yang biasanya terjadi sebagai reaksi gaya yang spontan saat benturan dari arah depan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Koil penyalaan </h2>
+					<p>
+	<strong>Koil penyalaan </strong>Alat elektromagnetik dalam mobil yang mengubah voltage rendah menjadi voltage tinggi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Kondensor</h2>
+					<p>
+	<strong>Kondensor</strong> Komponen yang ditempatkan di luar bodi distributor untuk menghilangkan loncatan bunga api pada saat platina terbuka. Kondensor perlu diganti juga secara periodik dan biasanya diganti bersamaan dengan platina.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Konverter Torsi </h2>
+					<p>
+	<strong>Konverter Torsi </strong>Peralatan ini memindahkan torsi dari mesin ke transmisi dan ditempatkan pada rumah yang menghubungkan mesin ke transmisi. Gunanya untuk menghubungkan dan memutuskan putaran motor dengan gigi-gigi yang berada di dalam bak percepatan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Konvertor </h2>
+					<p>
+	<strong>Konvertor </strong>katalitis Komponen sistem pembuangan yang mengubah polutan menjadi elemen yang kurang merugikan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>KRUK AS / Poros Engkol / CRANKSHAFT </h2>
+					<p>
+	Komponen ini ada di bak oli atau bagian bawah blok mesin. Fungsinya untuk mengubah gerak bolak-balik setang piston menjadi gerak putar. Pada poros ini juga terpasang roda gila/flywheel.</p>
+<p>
+	Dari poros engkol&nbsp;inilah tenaga mesin diteruskan ke kopling dan transmisi. Poros engkol juga meneruskan gerakan mesin ke nokkenas.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		
+		<div data-role="collapsible">
+			  <h2>L</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Laju awal </h2>
+					<p>
+	<strong>Laju awal </strong>Menyetel pengatur penyalaan supaya bunga api terjadi lebih dini dalam siklus mesin untuk operasi yang lebih efisien</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Laps </h2>
+					<p>
+	<strong>Laps </strong>Jumlah putaran yang dilombakan pada arena balap</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Leaf Spring </h2>
+					<p>
+	<strong>Leaf Spring </strong>Pegas daun ada dua jenis yaitu pegas daun dengan satu lembar pelat baja dan pegas daun multipelat baja.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lean Limit </h2>
+					<p>
+	<strong>Lean Limit </strong>Merupakan kondisi campuran udara dengan bahan bakar yang lebih banyak udaranya dibanding dengan bahan bakarnya atau biasa disebut batas campuran miskin (kurus).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>LeBra </h2>
+					<p>
+	<strong>LeBra </strong>Kantung anti speed gun</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lensa Prima </h2>
+					<p>
+	<strong>Lensa Prima </strong>Merupakan lensa berbentuk prisma. Letaknya di bagian dalam kotak lampu. Lensa ini berfungsi untuk memantulkan cahaya lampu ke sudut yang diinginkan. Selain lensa prima di dalam kotak lampu terdapat headlamp dan lensa silinder.</p>
+<p>
+	Bagian itu dipakai untuk membantu memancarkan cahaya langsung dari reflektor.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>LEV </h2>
+					<p>
+	LEV Singkatan dari Low Emission Vehicle. Di beberapa negara&nbsp;Amerika dan Eropa, emisi gas buang sangat lah dibatasi karena menimbulkan polusi udara akibat gas karbon monoksida. Mobil yang punya emisi gas buang melebihi batasan pemerintah akan dinyatakan sebagai mobil yang tidak layak pakai.</p>
+<p>
+	Untuk itu beberapa fabrikan mobil mulai melirik teknologi mesin hybrid yang artinya menggunakan tenaga bensin maupun listrik agar mengurangi emisi gas buang. Jenis mobil Low Emission Vehicle seperti Toyota Prius mulai di rancang untuk diproduksi masal dengan harapan menciptakan kendaraan yang ramah lingkungan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lexan </h2>
+					<p>
+	<strong>Lexan </strong>Adalah plastik keras transparan yang sering digunakan sebagai &lsquo;kaca depan&rsquo; dan belakang dari beberapa kendaraan balap. Kekuatannya Lexan ini terletak di kebal akan panas, anti berserakan jika pecah dan kuat walau pun terbuat dari plastik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lidah </h2>
+					<p>
+	<strong>Lidah </strong>Lis kecil yang dipasang di bagian bawah spoiler. Fungsinya untuk menambah down force.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Liftback</h2>
+					<p>
+	<strong>Liftback</strong> Pada prinsipnya konstruksi ini amat mirip dengan hatchback. Bedanya, liftback sesungguhnya memungkinkan mobil tanpa ekor hanya bisa dibuka sebatas kaca belakang saja.</p>
+<p>
+	Bagian bawahnya tetap &ldquo;tinggal&rdquo;. Beberapa pabrikan juga menggunakan istilah ini untuk mobil dengan ekor yang tidak terlalu panjang dengan bagasi masih menyatu ke ruang&nbsp;penumpang, namun seluruh bagian belakangnya bisa diangkat. Toyota pernah melansir Corolla Liftback yang masih bisa dimasukkan dalam kategori hatchback</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lifter </h2>
+					<p>
+	Onderdil logam sistem katup di antara cuping bubungan dan tongkat dorong atau lengan penggoyang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Limited Slip Differential (LSD)</h2>
+					<p>
+	<strong>Limited Slip Differential (LSD)</strong> Sistem penambah traksi. Cara kerjanya dengan memindahkan torsi saat diperlukan dan menjaga roda agar tidak selip atau berputar di tempat (spin).</p>
+<p>
+	System ini menyalurkan torsi ke roda yang memiliki traksi terbaik, sekaligus mengurangi pasokan daya ke roda yang tergelincir. Sistem ini bekerja baik pada jalan lurus.</p>
+<p>
+	Sistem yang lebih modern dapat mengirim tambahan torsi ke roda yang lebih baik traksinya, sebelum roda yang lain tergelincir. Namun bila kedua roda tergelincir, habislah sudah.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Limousine </h2>
+					<p>
+	<strong>Limousine </strong>Mobil dengan wheel base yang panjang dimana penumpang duduk di belakang dan dipisahkan oleh sekat yang bisa dinaikkan atau diturunkan secara elektris.</p>
+<p>
+	Limousine adalah tipe kendaraan mewah karena memberikan eksklusifitas dan kenyamanan yang lebih buat penumpang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Linguatronik </h2>
+					<p>
+	<strong>Linguatronik </strong>Sistem perintah suara ini menjadi fitur opsional C-Class untuk memanjakan penumpangnya. Suara anda&nbsp;dapat mengaktifkan semua fasilitas audio dalam kabin seperti radio, CD atau telepon.</p>
+<p>
+	Jadi tidak perlu menekan tombol lagi. Bila ingin mencari stasiun radio favorit tinggal mengatakan saja frekuensi yang anda inginkan. Begitu pula bila anda ingin berganti dari CD player ke telepon.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Long stroke</h2>
+					<p>
+	<strong>Long stroke</strong> engine Pada tipe mesin jenis ini langkah piston lebih besar dibanding diameter silinder.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lowering Kit </h2>
+					<p>
+	<strong>Lowering Kit </strong>Peredam kejut dan per yang didesain khusus (lebih pendek daripada perangkat standar pabrik) sehingga mobil lebih rendah ground clearance-nya (ceper).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>LSD</h2>
+					<p>
+	<strong>LSD</strong> Limited Spin Differential</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Lubang silinder </h2>
+					<p>
+	Lebar silinder mesin</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>M</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>MacPherson Strut Suspension System</h2>
+					<p>
+	<strong>MacPherson Strut Suspension System</strong> Bagian dari sistem suspensi independen, terdiri atas per keong dan shock strut (posisi sockbreaker ada di dalam strut). Biasanya dipasang di bagian depan kendaraan, namun bisa juga diinstal di belakang.</p>
+<p>
+	Jenis suspensi independen ini mempunyai sumbu yang hampir vertikal/tegak berfungsi sebagai&nbsp;kombinasi dari pegas, peredam kejut, dan pivot kemudi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Main Bearing </h2>
+					<p>
+	<strong>Main Bearing </strong>Komponen ini berbentuk dua lempengan, masing-masing setengah bundar. Di tengahnya diberi alur yang digunakan sebagai saluran oli atau pelumas. Di sebut metal duduk karena logam ini, tidak berpindah tempat.</p>
+<p>
+	Tetapi berada atau berputar pada blok mesin. Digunakan sebagai ganjal antara kruk as yang berputar pada blok silinder</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Manifold buang </h2>
+					<p>
+	<strong>Manifold buang&nbsp;</strong>&nbsp;- Sistem yang mengumpulkan gas buang dari silinder dan mengirimkannya ke pipa buang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Marshall  </h2>
+					<p>
+	<strong>Marshall </strong>Petugas disekeliling track terdiri dari flag, fire, track, course marshall, grid marshall.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Mass air flow sensor </h2>
+					<p>
+	<strong>Mass air flow sensor </strong>Tehnologi ini ada pada mobil merk Jaguar. Tugasnya mengukur massa udara yang masuk ke saluran masuk (intake system). Selain massa udara, temperatur yang masuk ke intake juga dikontrol guna menjamin pembakaran sempurna.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Master Silinder </h2>
+					<p>
+	<strong>Master Silinder </strong>Merupakan bagian utama pada sistem rem dan berfungsi untuk menimbulkan tekanan hidrolik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Maximum Economy </h2>
+					<p>
+	<strong>Maximum Economy </strong>Merupakan campuran bahan bakar dengan udara sempurna yang dapat menghasilkan tenaga mesin secara optimum</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Maximum Power</h2>
+					<p>
+	<strong>Maximum Power</strong> Merupakan campuran kondisi gemuk (kaya) yang dapat menghasilkan tenaga maksimum.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Mechanical damage</h2>
+					<p>
+	<strong>Mechanical damage</strong> Suatu keadaan dimana kemungkinan adanya kemasukan benda asing di ruang pengapian, atau piston macet tidak bisa menjangkau (terlalu jauh menuju) busi. Sehingga silinder mati, dan ini bisa mengakibatkan piston rusak.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Medical Center</h2>
+					<p>
+	<strong>Medical Center</strong> Semacam tim kesehatan untuk menangani korban kecelakaan terdiri dari berbagai macam dokter spesialis, dokter bedah, dokter anastesi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Mengselmotoren</h2>
+					<p>
+	<strong>Mengselmotoren</strong> Adalah motor yang dapat hidup karena memakai bahan bakar bensin dicampur dengan udara</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Mesin Rotari</h2>
+					<p>
+	<strong>Mesin Rotari</strong> Sebuah tipe mesin dengan rotor yang berfungsi sebagai piston. Rotor ini bergerak secara rotasi karena terdorong oleh ledakan akibat pengapian. Dengan bentuk menyerupai segitiga, rotor juga berfungsi menghisap campuran bahan bakar, memampatkan dan mendorong sisa pembakaran.</p>
+<p>
+	Mekanisme kerja mesin ini hampir sama dengan mesin empat langkah konvensional, dimana ada proses pemasukan (intake), pemampatan (compresion), penyalaan &amp; ekspansi, dan pembuangan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Metal Bulan / THRUST BEARING</h2>
+					<p>
+	<strong>Metal Bulan / THRUST BEARING</strong> Digunakan sebagai ganjal samping antara poros engkol blok silinder. Tugasnya mencegah poros engkol bergerak atau terdorong sepanjang sumbunya. Dengan permukaan yang licin, poros engkol bisa bergerak dengan lancar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Metal Duduk / Bantalan Utama / Main Bearing </h2>
+					<p>
+	<strong>Metal Duduk / Bantalan Utama / Main Bearing </strong>Komponen ini berbentuk dua lempengan, masing-masing&nbsp;setengah bundar. Di tengahnya diberi alur yang digunakan sebagai saluran oli atau pelumas.</p>
+<p>
+	Di sebut metal duduk karena logam ini, tidak berpindah tempat. Tetapi berada atau berputar pada blok mesin. Digunakan sebagai ganjal antara kruk as yang berputar pada blok silinder.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Metal Jalan / CON ROD BEARING </h2>
+					<p>
+	<strong>Metal Jalan / CON ROD BEARING </strong>Digunakan sebagai ganjal antara pangkal setang piston (big end) dan poros engkol. Berbentuk dua lempengan logam setengah bulat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>MIRA </h2>
+					<p>
+	<strong>MIRA </strong>Motor Industry Research Association</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Monokramatik </h2>
+					<p>
+	<strong>Monokramatik </strong>Nuansa warna tunggal atau setidaknya mempunyai kemiripan. Misalnya body kit, lisbodi, gril, spion atau velg dikelir serupa.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Monospace </h2>
+					<p>
+	<strong>Monospace </strong>Kendaraan sejenis van</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Moonroof </h2>
+					<p>
+	<strong>Moonroof </strong>Sama dengan sunroof, namun berbahan kaca tebal. Keuntungannya bila di malam hari, bisa memandang langit.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>mph</h2>
+					<p>
+	<strong>mph</strong> miles per hour, hitungan kecepatan laju kendaraan: mil per jam, 1 mil = 1,6 km</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>MPV </h2>
+					<p>
+	<strong>MPV </strong>Singkatan dari Multi Purpose Vehicle di-Indonesia-kan sebagai Kendaraan Multi Fungsi.</p>
+<p>
+	Sesuai dengan namanya, kendaraan ini selain keren juga ditujukan untuk berbagai penggunaan. Baik buat ngantor, piknik, belanja, olahraga, kondangan dan lain-lain. Contohnya Mazda MPV.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>MSRP</h2>
+					<p>
+	<strong>MSRP</strong> Adalah singkatan dari Manufacturer Suggested Retail Price atau Harga Retail yang dianjurkan oleh pembuat atau fabrikannya. Antara fabrikan mobil dengan distributor-dealer mematok harga mobil yang jelas berbeda terutama karena perlu biaya tambahan untuk proses, penanganan, pengiriman dan profit untuk sebuah transaksi penjualan mobil.</p>
+<p>
+	Untuk mencegah retail mobil menjual dengan harga gilagilaan, manufaktur atau fabrikannya mengeluarkan bandrol MSRP ini sebagai patokan buat konsumen.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Muffler</h2>
+					<p>
+	<strong>Muffler</strong> merupakan bagian dari knalpot yang berfungsi sebagai alat peredam suara dan juga sebagai penyaring udara yang keluar dari sisa pembakaran di ruang mesin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Multi Link</h2>
+					<p>
+	<strong>Multi Link</strong> Sebutan untuk kaki-kaki mobil dengan sistem adjustable (dapat disetel) Marshall Petugas disekeliling track terdiri dari flag, fire, track, course marshall, grid marshall.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		<div data-role="collapsible">
+			  <h2>N</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>NAIAS </h2>
+					<p>
+	<strong>NAIAS </strong>Singkatan dari North American International Auto Show, even tahunan pameran bergengsi di Amerika Serikat yang biasanya diselenggarakan di Detroit, Michigan. USA. Seringkali even menjadi ajang adu gengsi dan launching mobil konsep terbaru.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Navigation System </h2>
+					<p>
+	<strong>Navigation System </strong>Sistem navigasi pertama-tama di kembangkan oleh teknologi kelautan untuk menentukan posisi kapal di tengah laut berdasarkan koordinat derajat bujur dan lintang.</p>
+<p>
+	Namun pada perkembangannya teknologi ini juga di gunakan oleh otomotif pertama-tama dikembangkan oleh industri otomotif Eropa dan Jepang. Display informasinya pun tidak lagi berupa koordinat derajat namun posisi kendaraan lengkap dengan peta jalan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Negative offset/spoke </h2>
+					<p>
+	<strong>Negative offset/spoke </strong>Velg beroffset khusus. Velg order sesuai ruang spakbor dengan diameter, lebar, telapak,&nbsp;jarak antara inner dan outter rim (bagian belakang dalam velg), finishing dan spesifikasi ban yang akan dipakai.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>NHRA </h2>
+					<p>
+	<strong>NHRA </strong>Singkatan dari National Hot Rod Association yaitu assosiasi penggemar drag race nasional Amerika</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>NHRA</h2>
+					<p>
+	<strong>NHRA</strong> National Hot Rod Association</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>NHTSA </h2>
+					<p>
+	<strong>NHTSA </strong>National Hghway Traffic Safety Administration. Badan Administratif yang menangani keamanan lalu lintas di jalan tol Amerika Serikat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>NOKKENAS / Poros Bubungan / CHAMSHAFT</h2>
+					<p>
+	<strong>NOKKENAS / Poros Bubungan / CHAMSHAFT</strong> Komponen ini cuma ada pada mesin 4 langkah. Fungsinya, mengaktifkan katup (isap dan buang) dengan cara menyundulnya melalui tonjolan yang dimilikinya. Nokkenas digerakkan oleh sproket yang dihubungkan dengan gigi, rantai atau timming belt ke sproket kruk as.</p>
+<p>
+	Pada mesin lama poros kem berada di blok mesin, pada mesin baru berada di kepala silinder. Karena jaraknya cukup jauh, maka digerakkan melalui rantai atau timming belt. Poros ini berputar &frac12; kali kruk as. Setiap baris mesin, dulunya menggunakan satu poros dan disebut SOHC (single overhead camshaft), sekarang banyak mesin menggunakan dua poros dan disebut DOHC (double overhead camshaft).</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>O</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Octan Selector</h2>
+					<p>
+	Komponen ini berfungsi untuk menyetel saat pengapian optimum bagi suatu bahan bakar guna mencapai pengapian yang paling efisien dari campuran bahan bakar dan udara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Octane Requirment Increase </h2>
+					<p>
+	<strong>Octane Requirment Increase </strong>Adalah peningkatan kebutuhan oktan akibat penimbunan kerak sejalan pemakaian mesin (jam terbang).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Odometer </h2>
+					<p>
+	<strong>Odometer </strong>Alat pengukur jarak yang sudah ditempuh kendaraan. Biasanya terletak dekat speedometer yaitu di dashboard, sejajar lurus dengan arah pandang pemgemudi kedepan.</p>
+<p>
+	Banyak kendaraan yang menggunakan jumlah angka di odometer ini sebagai pengukur usia dan kinerja kendaraan. Jika jarak yang sudah ditempuh sudah cukup banyak, sangat mungkin harga mobil tersebut akan &lsquo;jatuh&rsquo; jika hendak dijual kembali oleh si pemiliknya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>OE </h2>
+					<p>
+	<strong>OE </strong>Singkatan dari Original Equipment, alias kelengkapan orisinil. Feature-feature atau onderdil standar yang sudah jadi paket dalam satu unit pembelian kendaraan otomotif dari sebuah manufaktur atau fabrikan otomotif.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Offroader</h2>
+					<p>
+	<strong>Offroader</strong> Sesuai namanya, mobil tipe atau jenis ini dirancang untuk keperluan penggunaan di jalan non aspal. Ciri-ciri yang spesifik adalah penggunaan ban berdiameter cukup besar, demikian pula tenaga mesinnya.</p>
+<p>
+	Sistem suspensi extra kuat dan keras untuk menahan benturan yang ekstrem. Mobil jenis ini selain laku untuk olahraga offroad, juga laku dipakai pegawai perkebunan, pertambangan dan berbagai&nbsp;jenis perusahaan yang berlokasi jauh dipedalaman.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil cleaner</h2>
+					<p>
+	<strong>Oil cleaner</strong> Gunanya untuk menyaring oli yang diedarkan di dalam motor.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil cleaner</h2>
+					<p>
+	<strong>Oil cleaner</strong> Gunanya untuk menyaring oli yang diedarkan di dalam motor.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil Deposit </h2>
+					<p>
+	<strong>Oil Deposit </strong>Kerusakan busi karena disebabkan adanya endapan oli. Tanda-tanda : endapan oli disebabkan kurangnya kontrol pada oli. Oli bocor melewati katup yang robek atau piston ring, sehingga masuk ruang pengapian. Alhasil, mesin susah distarter, macet</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil dipstick</h2>
+					<p>
+	&nbsp;tongkat pengukur oli transmisi di dalam oli carter</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil drain hole </h2>
+					<p>
+	tutup penguras oli</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil Pressure Gauge </h2>
+					<p>
+	<strong>Oil Pressure Gauge </strong>Di dalam turbo berputar 2 bidang metal mirip kipas satu poros yang mampu mencapai puluhan ribu rpm. Putaran seekstrem itu menghasilkan suhu sangat tinggi hingga membara dan mampu memuaikan metal. Bila tak teratur, pemuaian saat penyusutan tak merata bisa membengkokkan isi turbo (turbin dan kompresor)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil Pressure Gauge </h2>
+					<p>
+	<strong>Oil Pressure Gauge </strong>Di dalam turbo berputar 2 bidang metal mirip kipas satu poros yang mampu mencapai puluhan ribu rpm. Putaran seekstrem itu menghasilkan suhu sangat tinggi hingga membara dan mampu memuaikan metal. Bila tak teratur, pemuaian saat penyusutan tak merata bisa membengkokkan isi turbo (turbin dan kompresor)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oil Pump </h2>
+					<p>
+	<strong>Oil Pump </strong>Gunanya untuk memompakan oli yang akan diedarkan di dalam motor.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>One Make Race</h2>
+					<p>
+	&nbsp;Lomba satu jenis kendaraan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Outside mirror </h2>
+					<p>
+	kaca spion mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Over fender </h2>
+					<p>
+	<strong>Over fender </strong>Panel bodi tambahan pada bibir spakbor. Gunanya menyeimbangi lebarnya velg sehingga tetap rata bodi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Over Fender (Spat Board) </h2>
+					<p>
+	<strong>Over Fender (Spat Board) </strong>Yaitu komponen bodi yang dipasang pada &lsquo;bibir&rsquo; rumah roda spakbor. Fungsinya selain untuk menambah kesan gagah adalah untuk melindungi bodi dari kotoran yang berasal dari ban yang muncul keluar (biasanya over fender hanya dipakai untuk jenis SUV atau jip yang rata-rata bannya keluar dari atas bodi).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Overcoat  </h2>
+					<p>
+	<strong>Overcoat Teknologi </strong>pada kaca film yang melindungi lem dan larut bila terkena air. Dengan overcoat ini kaca film mudah dipasang dan memungkinkan untuk membersihkan bagian yang merekat pada saat pemasangan film.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Overdrive </h2>
+					<p>
+	<strong>Overdrive </strong>Roda gigi transmisi yang didesain untuk mengurangi kecepatan mesin dan meningkatkan penghematan bahan bakar ketika mobil sedang beroperasi lebih dari 50 mil per jam.</p>
+<p>
+	Fungsinya mendukung kerja transmisi otomotis (tuas persneling pada posisi D) agar putaran mesin pada gigi&nbsp;tertinggi tidak tertahan pada putaran tinggi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Overdrive Transmission</h2>
+					<p>
+	<strong>Overdrive Transmission</strong> Perbandingan gigi akhir kurang dari 1:1. Ini memungkinkan mesin bekerja pada rpm rendah tapi dengan kecepatan tinggi (di jalan tol). Dampaknya bahan bakar hemat, reduksi kebisingan dan memperlambat keausan mesin dan membantu kendaraan mencapai top speed.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Overhaul </h2>
+					<p>
+	<strong>Overhaul </strong>Bongkar total</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oversteer </h2>
+					<p>
+	<strong>Oversteer </strong>Timbul saat roda belakang kehilangan traksi karena membentuk slip angle lebih besar dibanding roda depan, sehingga bagian belakang mobil bergerak ke luar tikungan seolah ingin menyusul hidung mobil. Mengoreksi oversteer dilakukan dengan mengarahkan setir ke arah slip angle sambil mengurangi gas.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Oxygen</h2>
+					<p>
+	<strong>Oxygen</strong> Sensor Teknologi ini ada di mobil merek Jaguar. Mengontrol agar campuran bahan bakar di mesin selalu berada dalam kategori ideal. Jadi campuran bahan bakar tidak terlalu kaya atau terlalu miskin bahan bakar.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>P</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pace Car </h2>
+					<p>
+	<strong>Pace Car </strong>Mobil Pemandu Balapan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Paddock </h2>
+					<p>
+	<strong>Paddock </strong>Tempat parkir mobil balap supporting area atau untuk parkir mobil pembalap</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Paking </h2>
+					<p>
+	<strong>Paking </strong>Bahan tipis dan liat yang digunakan sebagai penutup di antara dua permukaan logam.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Panel sekring </h2>
+					<p>
+	<strong>Panel sekring </strong>Panel di mana sekring listrik dipasang supaya mudah dimasuki.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Park Distance Control (PDC)</h2>
+					<p>
+	<strong>Park Distance Control (PDC)</strong> Fitur ini berfungsi membantu saat memundurkan kendaraan ke tempat parkir. Untuk mengukur jarak ke obyek yang terdekat, empat sensor ultrasonik dipasang di bemper belakang.</p>
+<p>
+	Sedangkan kedua sensor tengah mencapai jangkauan sekitar 1,5 m. Saat kunci kontak di posisi 2, sistem diaktifkan secara otomatis setelah 1 detik, jika tuas persneling digerakkan ke posisi R. Sistem dinonaktifkan jika gigi persneling mundur dilepaskan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Parktonik</h2>
+					<p>
+	<strong>Parktonik</strong> Informasi objek kecil sekirat mobil, sekaligus pendeteksi jarak dijalan yang sempit dengan indikator Bar Graph pada display</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Part-time 4WD </h2>
+					<p>
+	<strong>Part-time 4WD </strong>Tipe ini menuntut pengemudi secara manual memindahkan system dari 2WD ke 4WD dengan menggunakan tuas atau tombol. Sekarang ini, kebanyakan proses perpindahan itu dilakukan dalam kondisi berjalan (shift on the fly).</p>
+<p>
+	Daya mesin dibagi rata 50:50 untuk roda depan dan belakang. Sistem ini banyak dipakai pada pickup dan SUV seperti Chevrolet, Mazda, Nissan, Chevrolet Blazer; Jeep Cherokee, Jeep Wrangler; Mitsubishi Montero Sport; Nissan Pathfinder; Toyota 4Runner.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>PCNA </h2>
+					<p>
+	<strong>PCNA </strong>Singkatan dari Porsche Cars North America Inc. yaitu salah satu unit dari management Porsche yang menangani konsumen di Amerika Utara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pegal Gas </h2>
+					<p>
+	<strong>Pegal Gas </strong>Pedal gas pada mobil berfungsi untuk memberikan pemasukan bensin di dalam saluran isap silinder mesin sehingga dapat mempercepat laju kendaraan atau memperlambat putaran mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pegas Katup</h2>
+					<p>
+	<strong>Pegas Katup</strong> Berfungsi mengembalikan dan menjaga katup mulai katup tertutup sampai terbuka lagi oleh kam. Pegas Katup juga mengembalikan komponen lainnya dari pemindah katup, seperti batang penekan mengembalikan penutup ke posisinya dan memegang pengangkat kam kontak dengan kam.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pegas Suspensi</h2>
+					<p>
+	<strong>Pegas Suspensi</strong> Pegas mempunyai tugas menghubungkan bodi dengan poros roda. Selain itu ia berfungsi sebagai bantalan penyerap goncangan saat berada pada permukaan jalan yang bergelombang.</p>
+<p>
+	Dilihat dari bentuknya pegas suspensi bisa dibedakan dalam lima macam yaitu pegas daun, pegas ulir, pegas torsi, suspensi udara, dan pegas berlubang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pelurusan </h2>
+					<p>
+	<strong>Pelurusan </strong>Penyetelan untuk menjaga onderdil tetap berada dalam posisi yang relatif benar, seperti pelurusan roda mobil.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pembersih udara</h2>
+					<p>
+	Selubung plastik atau logam di atau dekat karburator atau pipa masuk injeksi bahan bakar dengan saringan untuk menghilangkan partikel lebih besar dari udara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Penyalaan titik pemutus arus</h2>
+					<p>
+	<strong>Penyalaan titik pemutus arus</strong>&nbsp;- Sistem penyalaan yang menggunakan dua titik kontak untuk menghentikan aliran listrik dalam distributor mekanis atau titik pemutus arus, biasanya pada mobil lebih tua.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>PES (Poly Ellipsoid System)</h2>
+					<p>
+	<strong>PES (Poly Ellipsoid System)</strong> Merupakan sistem lampu sorot Halogen atau Xenon. Cara kerjanya menggunakan reflector elliptis hasil pancaran sinar lampu melalui optik projector</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pit area </h2>
+					<p>
+	<strong>Pit area </strong>Tempat untuk meletakkan peralatan yang berhubungan dengan pembalap, terletak di belakang pit.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pit Garage/box </h2>
+					<p>
+	<strong>Pit Garage/box </strong>Garasi untuk menyimpan kendaraan yang akan dilombakan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Post Marshall </h2>
+					<p>
+	<strong>Post Marshall </strong>Tempat berkumpulnya petugas di sekitar lintasan seperti Flag Marshall, Fire Marshall, Course Marshal. Jumlahnya sama dengan jumlah tikungan yang ada karena lokasinya terletak sebelum tikungan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pro Drive  </h2>
+					<p>
+	<strong>Pro Drive</strong> Ban bury &ndash; Inggris, Rumah dapur pacu untuk mobil rally &amp; balap</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Pro Stock Bike </h2>
+					<p>
+	<strong>Pro Stock Bike </strong>Produksi di atas tahun 1987, 750 cc, suplai bahan bakar karburator, kecepatan 288 km/j</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>PTO </h2>
+					<p>
+	<strong>PTO Power take-off</strong>, tenaga mesin</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>Q</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Quarter to Three</h2>
+					<p>
+	<strong>Quarter to Three</strong> Posisi tangan pada stir, pada posisi jam 3 kurang lima belas menit</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Quarter window </h2>
+					<p>
+	<strong>Quarter window </strong>Kaca kecil berbentuk segitiga di jendela samping, yang bisa dibuka dan ditutup. Letaknya ada di bagian depan kaca samping, dekat kaca spion. Banyak terdapat di desaindesain mobil coupe Amerika tahun 1970-an.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Quick Disconnect Stabilizer System</h2>
+					<p>
+	<strong>Quick Disconnect Stabilizer System</strong> Stabilizer pada Jeep yang terpasang di gardan depan. Dipasang jika melaju di jalan raya dan dilepas di medan off road.</p>
+<p>
+	Anda harus melepaskan sambungan pengait dan pin secara manual sebelum memasuki lintasan off road dan pasang lagi menjelang jalan beraspal.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>R</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Race control </h2>
+					<p>
+	<strong>Race control </strong>Tempat pimpinan perlombaan racing beserta asistennya memberi petunjuk atau perintah kepada petugas-petugas yang menyebar di trek, memonitor seluruh kejadian di sekitar sirkuit.</p>
+<p>
+	Dalam ruangannya dilengkapi dengan CCTV (close circuit television), public announcement system (PA), alat komunikasi (handy talkie). Letaknya ada di atas tower dekat garis start atau finish.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Race control </h2>
+					<p>
+	<strong>Race control </strong>Tempat pimpinan perlombaan beserta asistennya memberi petunjuk atau perintah kepada petugas-petugas yang menyebar di trek, memonitor seluruh kejadian di sekitar sirkuit.</p>
+<p>
+	Dalam ruangannya dilengkapi dengan CCTV (close circuit television), public announcement system (PA), alat komunikasi (handy talkie). Letaknya ada di atas tower dekat garis start atau finis.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rack dan Pinion Steering</h2>
+					<p>
+	Pada dasarnya rack dan pinion steering terdiri dari sebuah rack dan pinion. Steering ratio ditetapkan oleh rasio revolusi pinion (steering wheel revolution) pada sebuah track travel.</p>
+<p>
+	Rangkaian gigi yang sesuai pada rack membolehkan rasio membuat variable melebihi travel. Hal ini merendahkan kekuatan kabel penggerak dan mengurangi travel untuk mengoreksi steering.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Radial tire</h2>
+					<p>
+	<strong>Radial tire</strong>&nbsp;- Ban radial yaitu konstruksi ban yang di dalamnya terdapat serat baja melintang tegak lurus dari satu sisi ke sisi lain ban</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Radiator </h2>
+					<p>
+	<strong>Radiator </strong>Onderdil mobil yang mengurangi suhu mesin dengan memindahkan panas dalam cairan (pendingin) ke udara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Radio Broadcast Data System </h2>
+					<p>
+	<strong>Radio Broadcast Data System </strong></p>
+<p>
+	Model radio yang bisa menerima pengiriman data digital disamping sinyal radio FM standar. Artinya selain suara pada display dapat terpampang nama stasiun radio, format program, nama lagu sekaligus penyanyinya. RDS juga membantu mempermudah menemukan informasi kemacetan dan gawat darurat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rain sensor </h2>
+					<p>
+	<strong>Rain sensor </strong>Merupakan perangkat elektronik yang dipasang di depan kaca mobil untuk mendeteksi air hujan. Saat hujan makin lebat, sensor akan mengirimkan sinyal ke pusat data processing.</p>
+<p>
+	Dari situ sinyal akan dikirim ke motor wiper, memerintahkan untuk&nbsp;bergerak mengeringkan bagian depan kaca yang basah. Sensor ini bekerja sesuai dengan intensitas kerapatan butir air yang menempel di kaca depan. Tehnologi ini ada pada Peugeot 307, Mercedes Benz S Class, VW Passat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>RDS (Radio Data System)</h2>
+					<p>
+	<strong>RDS (Radio Data System)</strong>&nbsp;Merupakan transmisi digital yang mampu mengirimkan data ke mobil radio pengguna. Pada radio tersebut akan terlihat juga nama pengirim dan waktu pengirimannya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Real Time All Wheel Drive </h2>
+					<p>
+	<strong>Real Time All Wheel Drive </strong>Cara kerja sistem ini adalah : sensor akan mendeteksi gejala selip pada roda, selanjutnya mengirimkan sinyal pada komputer. Setelah itu komputer memerintahkan transfer untuk segera mengaktifkan penggerak 4 roda, hanya pada saat &ndash; saat dibutuhkan. Misalnya ketika melintasi lumpur.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rear Engine </h2>
+					<p>
+	<strong>Rear Engine </strong>Sebutan untuk mesin kendaraan yang sengaja dipasang di bagian belakang Rear Mirror Merupakan kaca spion yang terletak di belakang kendaraan fungsinya sama dengan kaca spion di kiri &ndash; kanan kendaraan namun rear mirror digunakan untuk mengontrol sisi belakang kendaraan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rear Spoiler</h2>
+					<p>
+	<strong>Rear Spoiler</strong> Sayap yang menempel di bodi</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rear window </h2>
+					<p>
+	<strong>Rear window </strong>Jendela belakang mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rear window frame</h2>
+					<p>
+	<strong>Rear window</strong> frame Bingkai jendela belakang mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Rear Wing</h2>
+					<p>
+	<strong>Rear Wing</strong> Bila sayap terpisah dengan bodi (ada penyangganya). Pada mobil hatchback, sering ada tambahan sayap diatas kaca yang disebut juga rear spoiler.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>RODA GILA / FLYWHEEL</h2>
+					<p>
+	<strong>RODA GILA / FLYWHEEL</strong> Komponen bulat sangat berat ini berada di salah satu ujung poros engkol. Fungsinya menjaga poros engkol tetap berputar dengan rata ketika tidak ada tenaga yang dihasilkan mesin.</p>
+<p>
+	Tenaga untuk mendorong itu merupakan inersianya yang besar lantaran bobotnya yang berat. Besarnya bobot roda gila ini menentukan momen puntir yang dihasilkan mesin.</p>
+<p>
+	Karena diameternya besar, roda gila juga digunakan sebagai tempat untuk menghidupkan mesin. Atau tempat cantelan motor starter, karena itu bagian pinggirnya dipenuhi dengan gerigi.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>S</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Sabuk penggerak </h2>
+					<p>
+	<strong>Sabuk penggerak </strong>Sabuk kain dan sabuk karet yang menggunakan perputaran katrol poros engkol untuk memutar alternator, pompa air, pompa kemudi servo, dan kompresor alat pendingin udara, jika dilengkapi dengan onderdil tersebut.</p>
+<p>
+	Beberapa mobil menggunakan sabuk tunggal, disebut sabuk penggerak yang berkelok-kelok, untuk menggerakkan banyak komponen.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>SAE </h2>
+					<p>
+	<strong>SAE </strong>Society of Automotive Engineer adalah satuan ukuran kekentalan oli.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Safety car </h2>
+					<p>
+	<strong>Safety car </strong>Mobil yang digunakan untuk memeriksa apakah trek sudah siap digunakan, mengelilingi trek sebelum lomba dimulai dan kemudian dilaporkan pada pimpinan perlombaan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Saloon (sedan) </h2>
+					<p>
+	<strong>Saloon (sedan) </strong>Saloon atau sedan adalah versi nyaman dan mewah dari sebuah kendaraan atau mobil. Fasilitas yang diberikan kendaraan jenis ini pun diatas standar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Saringan Bensin </h2>
+					<p>
+	<strong>Saringan Bensin </strong>Berfungsi untuk menahan kotoran yang dikandung oleh bensin sebelum masuk ke pompa.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Saringan udara </h2>
+					<p>
+	<strong>Saringan udara </strong>Untuk membersihkan udara yang diperlukan pada proses pembakaran dalam silinder motor.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Satuan Kecepatan </h2>
+					<p>
+	Amerika menerapkan satuan kecepatan mil/jam. Sedangkan Indonesia km/jam. 1 mil/jam = 1.6093 km/jam. 1 km/jam = 0.621 mil/jam.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Satuan Volume </h2>
+					<p>
+	Satuan volume di Indonesia adalah cc (cubic centimeters) atau 1/1000 liter. Di luar negeri ada yang memakai satuan volume cubic inches (cu.in). 1 cu.in = 0.0164 liter = 16.3866 cc.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Scrutineering </h2>
+					<p>
+	<strong>Scrutineering -&nbsp;</strong>Pemeriksaan kendaraan beserta perlengkapannya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Seating Reference Point </h2>
+					<p>
+	<strong>Seating Reference Point </strong>Untuk mengoptimalkan sudut duduk penumpang untuk menciptakan rancangan kursi seergonomis mungkin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Selectable 4WD </h2>
+					<p>
+	<strong>Selectable 4WD </strong>Sistem ini memberikan keleluasaan lebih banyak pada pengemudi untuk memilih jenis penggerak rodanya, termasuk 2WD, full-time 4WD, bahkan part-time 4WD guna memberikan traksi maksimal.</p>
+<p>
+	Sistem ini dipakai oleh: Jeep Cherokee, Grand Cherokee; Mitsubishi Montero; Acura SLX; Ford Expedition; Infiniti QX4; Isuzu Trooper.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Self Leveling Suspension (SLS)</h2>
+					<p>
+	<strong>Self Leveling Suspension (SLS)</strong> SLS ini bekerja pada suspensi belakang untuk menjaga tingkat / ketinggian efisien kendaraan sesuai beban diangkut. Beroperasi secara otomatis saat mesin hidup atau kendaraan bergerak.</p>
+<p>
+	SLS menggunakan tekanan udara (pneumatic). Bila ketinggiannya berkurang karena bertambahnya muatan, SLS secara otomatis akan menambah tekanan udara pada per untuk mengimbangi penambahan berat atau&nbsp;perubahan posisi/kondisi kendaraan. Sebaliknya bila muatan berkurang, sistem akan mengurangi tekanan udara untuk mengembalikan ke posisi semula.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Selubung engkol </h2>
+					<p>
+	<strong>Selubung engkol </strong>Onderdil mesin paling bawah, yang mengelilingi poros engkol.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>SEMA </h2>
+					<p>
+	<strong>SEMA </strong>Singkatan dari Speciality Equipment Market Association, Badan yang menyuarakan kepentingan produk-produk hasil dari fabrikan otomotif Amerika Serikat.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Sensor camshaft position </h2>
+					<p>
+	Tehnologi ini terdapat pada mobil Jaguar. Fungsinya mengirim sinyal tegangan bolak balik ke Powertrain Control Module (PCM/ otak mobil), dimana posisi silinder nomor satu dihitung. Proses ini diperlukan hanya pada saat start. Bila mesin sudah hidup, sinyal berikutnya digunakan buat mengontrol secara urut injeksi bahan bakar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Sensotronic Brake Control (SBC)</h2>
+					<p>
+	<strong>Sensotronic Brake Control (SBC)</strong> Cara kerjanya menggunakan sinyal tekanan di pedal rem. Lalu dihubungkan dengan tabung reservoir bertekanan tinggi. Penggunaan sistem ini tergantung sepenuhnya dari seberapa kuat tekanan kaki pengemudi menginjak pedal rem.</p>
+<p>
+	Jadi kepakeman rem bervariasi tergantung reaksi pengereman yang dilakukan. SBC juga bekerja dengan sensor di sistem ABS (putaran roda) dan ESP (sudut kemiringan roda).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Sequential</h2>
+					<p>
+	<strong>Sequential</strong> Transmisi pengoprasian bertanda (-) dan (+)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Service </h2>
+					<p>
+	<strong>Service </strong>Jalan disisi trek untuk kendaraan yang mendukung jalannya perlombaan seperti ambulans, derek.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Setang Piston / CON ROD </h2>
+					<p>
+	<strong>Setang Piston / CON ROD </strong>Fungsinya sebagai penghubung antara piston dengan poros engkol, sekaligus mengubah gerak bolak-balik menjadi gerak putar</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Sliding </h2>
+					<p>
+	<strong>Sliding </strong>Sebuah benda yang tidak bergerak berputar, tapi posisinya berubah. Misal Pengereman mendadak pada kecepatan tinggi menyebabkan roda terkunci tapi mobil tetap melaju</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>SOHC</h2>
+					<p>
+	<strong>SOHC</strong> Single Over herd Camshaft</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Spin </h2>
+					<p>
+	<strong>Spin </strong>Benda berputar pada poros dan bergesekan terhadap alasnya, tapi posisinya tidak berpindah.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Studded Tyre </h2>
+					<p>
+	<strong>Studded Tyre -&nbsp;</strong>Ban berpaku (trek es/salju)</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>T</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Taber abrader </h2>
+					<p>
+	<strong>Taber abrader </strong>Untuk menguji ketahanan dan kekuatan kaca film terhadap goresan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tail pipe </h2>
+					<p>
+	<strong>Tail pipe </strong>pipa buang bagian belakang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tail pipe extension </h2>
+					<p>
+	<strong>Tail pipe extension</strong>&nbsp;- perpanjangan pipa gas buang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tailight</h2>
+					<p>
+	<strong>Tailight</strong> Lampu belakang</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tali kipas </h2>
+					<p>
+	<strong>Tali kipas </strong>berfungsi sebagai penerus putaran dari kruk as yang menggerakkan pompa air dan alternator.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tappet Mangkuk</h2>
+					<p>
+	<strong>Tappet Mangkuk</strong> tutup pegas-katup yang terpasang pada bagian atas batang katup</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>TCS Traction Control System</h2>
+					<p>
+	<strong>TCS Traction Control System,</strong> mencegah roda spin saat digeber</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Team Order Perintah tim</h2>
+					<p>
+	<strong>Team Order Perintah tim</strong>, suatu perintah berdasarkan kepentingan tim</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Tecnotest </h2>
+					<p>
+	<strong>Tecnotest </strong>Untuk mendeteksi karbon yang keluar dari knalpot mobil dan untuk mengetahui pemakaian bahan bakar kendaraan Anda.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ten to Two </h2>
+					<p>
+	<strong>Ten to Two </strong>Posisi tangan pada stir, pada posisi jam 2 kurang sepuluh menit</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Terminal -Tinsel Lead </h2>
+					<p>
+	<strong>Terminal-Tinsel Lead </strong>Semua sinyal dari power amplifier di speaker harus lewat jembatan yang satu ini sebelum diproses jadi suara. Komposisi materinya ; kabel lunak dibungkus aluminium.</p>
+<p>
+	Kemasan seperti ini banyak diyakini punya daya tahan yang lebih kuat dari materi lainnya.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Termostat </h2>
+					<p>
+	<strong>Termostat </strong>Katup otomatis yang digunakan sebagai alat untuk mengatur aliran air pendingin dari mesin ke radiator</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Test Drive </h2>
+					<p>
+	<strong>Test Drive </strong>Test kendaraan yang dilakukan di jalan raya dan di jalan tol. Dengan tujuan untuk melihat kelebihan dan kekurangan dari kendaraan tersebut.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Test Track </h2>
+					<p>
+	<strong>Test Track </strong>Test kendaraan untuk melihat kekuatan/ketangguhan mesin, stabilitas serta keandalan kendaraan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Three-way </h2>
+					<p>
+	<strong>Three-way -&nbsp;</strong>Speaker yang bentuknya sama seperti two-way speaker namun ditambah dengan midrange, guna mengakomodasi suara vokal. Ekstra tenaga untuk frekuensi tinggi akan dimuntahkan dengan sensifitas tinggi pula.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Track Marshall </h2>
+					<p>
+	<strong>Track Marshall </strong>Petugas yang mendorong dan mengangkut mobil balap yang mogok atau kecelakaan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Traction Bar </h2>
+					<p>
+	<strong>Traction Bar </strong>Palang yang berfungsi untuk mencegah gejala spin</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Transaxel </h2>
+					<p>
+	<strong>Transaxel </strong>Adalah poros pemindah gerak yang merupakan unit yang terdiri dari kopling, kotak gigi, dan diferensial. Poros dibautkan ke mesin dan merupakan rakitan kaku / terpasang tetap. Poros ini menggerakkan dari diferensial melalui poros&nbsp;penggerak dan sambungan kecepatan tetap ke roda-roda.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Transfer Case </h2>
+					<p>
+	Tuas perseneling</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>U</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Ultra Low Emission Vehicle</h2>
+					<p>
+	<strong>Ultra Low Emission Vehicle -&nbsp;</strong>&nbsp;Fabrikan mobil selain melirik Low Emission Vehicle, juga mulai melirik Ultra Low Emission Vehicle. Bahan bakarnya nyaris tidak menggunakan minyak bumi lagi.</p>
+<p>
+	Perusahaan Opel bahkan mulai melirik air sebagai bahan bakar dengan menghasilkan mobil prototype Opel Hydrogen 1.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Under Steer </h2>
+					<p>
+	<strong>Under Steer </strong>Merupakan kondisi dimana mobil menikung dengan radius putar yang lebih besar dari idealnya. Understeer terjadi ketika slip angle roda depan lebih besar dibanding roda belakang, sehingga mobil meluncur meski setir sudah dibelokkan. Mengurangi understeer amat bergantung pada tipe mobil yang anda kemudikan.</p>
+<p>
+	Untuk mobil gerak roda depan, kurangi tekanan di pedal gas, sambil mengoreksi arah kemudi. Atau bagi pengemudi profesional, dilakukan pengereman dengan kaki kiri, supaya bagian belakang mobil bergeser ke luar tikungan.</p>
+<p>
+	Di mobil gerak roda belakang, understeer direduksi dengan mengurangi gas atau justru menambah gas, memanfaatkan tenaga mesin untuk menggeser ekor mobil ke luar tikungan.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Undercoating </h2>
+					<p>
+	<strong>Undercoating </strong>Suatu campuran, umumnya berasal dari minyak bumi yang dilapiskan pada permukaan logam. Biasa dipergunakan pada bagian luar atau kolong mobil yang cenderung terjadi karat. Tapi bahan ini bisa dipergunakan sebagai peredam suara.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Urban Vehicle </h2>
+					<p>
+	<strong>Urban Vehicle </strong>Jenis atau tipe kendaraan yang dirancang khusus untuk keperluan transportasi di daerah kota. Beberapa ciri tipikalnya adalah kapasitas mesin yang tidak sekuat sedan atau SUV,.</p>
+<p>
+	kebanyakan Urban Vehicle menggunakan transmisi otomatis karena penggunaannya lebih praktis di daerah yang serba macet. Contoh kendaraan yang masuk kategori Urban Vehicle adalah Hyundai Atoz dan Suzuki Karimun.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Urethane </h2>
+					<p>
+	<strong>Urethane </strong>Bahan plastik yang sangat kuat. Umumnya dipergunakan untuk bantalan suspensi pada pemakaian khusus, seperti untuk off-road dan beban berat. Pemakaian bantalan urethane cenderung memperkeras sistem suspensi tapi jauh lebih kuat dan tahan lama.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>V</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>V-engine </h2>
+					<p>
+	<strong>V-engine </strong>Konfigurasi mesin dimana 2 kumpulan dari silinder di susun menyudut satu sama lain, membentuk konfigurasi huruf V.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Vacuum Light Adjuster</h2>
+					<p>
+	<strong>Vacuum Light Adjuster </strong>-&nbsp;Teknologi ini membuat ketinggian sinar lampu depan bisa diatur otomatis, sesuai kondisi jalan dan pergerakan bodi mobil. Sistemnya menyesuaikan sudut sorotan lampu berdasarkan sensor di permukaan jalan, sementara sensor di poros roda belakang mendeteksi pergerakan bodi. Lalu sinyal dikirimkan ke motor penggerak lampu hanya dalam hitungan sepersekian detik.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Valve Tire </h2>
+					<p>
+	<strong>Valve Tire </strong>Biasa disebut pentil ban. Fungsinya sebagai pintu masuk udara, sekaligus mencegah kebocoran udara di dalam ban. Di dalamnya terdapat perangkat kecil bernama valve core yang berfungsi sebagai katup pemasukan udara</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Valvetronic </h2>
+					<p>
+	<strong>Valvetronic -</strong>Teknologi pada mesin BMW. Selain mengatur bukaan tutup katup juga mengatur panjangnya saluran pemasukan. Bukaan tutup dikendalikan oleh sebuah servo sesuai dengan data yang diterima dari sistem manajemen mobil.</p>
+<p>
+	Cara kerjanya : untuk memperbesar bukaan katup sebuah elektromotor akan menekan tuas pemaju yang sekaligus bertugas menekan katup. Akibat posisinya yang lebih ke depan, maka tekanan poros nok menjadikan bukaan yang lebih besar dan bila bergerak mundur bukaan akan mengecil.</p>
+<p>
+	Penekanan dilakukan melalui roda gigi yang dihubungkan dengan elektromotor dan tuas pembuka. Jadi tuas selain mengatur besar dan waktu bukaan, juga sebagai perantara antara poros nok dan katup.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Van/minivan</h2>
+					<p>
+	<strong>Van/minivan</strong> Sebuah konsep kendaraan yang dirancang untuk keperluan keluarga dimana jumlah orang yang cukup banyak dan mampu memuat barang-barang.</p>
+<p>
+	Beberapa van bahkan dilengkapi pintu geser yang walaupun kurang keren tapi lebih praktis dari jenis pintu mobil yang biasa.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Vanos </h2>
+					<p>
+	<strong>Vanos </strong>Adalah variable valve timing, merupakan tehnologi desain mesin yang dikembangkan oleh BMW. Sistem ini dapat mengubah waktu buka tutup katup sehingga dihasilkan mesin yang mempunyai kinerja yang&nbsp;unggul pada kecepatan rendah dan tinggi.</p>
+<p>
+	Hasilnya mesin hemat bahan bakar, dengan kapasitas silinder kecil dengan kinerja bagus pada semua tingkat putaran mesin. Tehnologi Vanos dikembangkan lagi oleh BMW dengan nama double vanos yaitu sistem vanos yang bekerja pada katup masuk dan katup buang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Variocam</h2>
+					<p>
+	<strong>Variocam </strong>Adalah Variabel Valve Timing atau VTEC buatan Porsche. Merupakan perpaduan antara dua buah konsep mesin yaitu camshaft adjusment dan valve lift control. Berkat Variocam ini, Porsche 911 terbaru bisa berakselerasi lebih cepat dari Porsche 911 edisi terdahulu. Dari 0-100 km/jam hanya dalam waktu 5 detik.</p>
+<p>
+	Tentu saja performa akselerasi ini bukan kerja Variocam sendirian tapi juga dibantu oleh sistem intake yang punya resonansi. Selain itu juga Variocam membantu peningkatan kecepatan dan membuat sistem pengendalian 911 baru menjadi lebih responsif.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Vehicle Identification Number (VIN)</h2>
+					<p>
+	<strong>Vehicle Identification Number (VIN) - &nbsp;</strong>Nomor identifikasi mesin pada mobil CBU. Dengan membaca VIN bisa diketahui lebih detil tahun produksi, negara pengekspor dan negara pengimport, negara pembuat, tipe mobil, pabrik pembuatnya. Misalnya : JAC D H 5 8 V X P 7 8 00001.</p>
+<p>
+	Cara membacanya : JAC = Isuzu MPV menunjukkan maker identifier / tipe mobil, D = brake range, H = utility 4&times;4, angka 5 = Isuzu MPV menunjukkan model, angka 8 = tipe bodi menyangkut door short atau long wheel base, huruf V = tipe mesin yakni 6VD1-V gasoline 3.2 LSOHC V6 fuel injection, huruf X berarti check digit, huruf P menunjukkan tahun model pembuatan, angka 7 = berarti plant of manufacture yakni Fujisawa (Jepang), angka 8 menunjukkan sequential identifier yakni USA/PR (truk), deretan angka 00001 menunjukkan nomor urut produksi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Velg Bead Lock </h2>
+					<p>
+	<strong>Velg Bead Lock</strong> Velg ini memiliki ring pengunci bead (bibir) ban yang dipakai. Bentuknya seperti cincin di bibir velg dan dilengkapi baut agar bisa menjepit bead. Ini berguna buat menangkal problem spin antara velg dan ban.</p>
+<p>
+	Terutama saat tekanan ban direndahkan buat mendapatkan traksi maksimum di medan lumpur atau bebatuan (rock crawling). Dengan dijepitkannya bibir ban, posisinya tak akan berubah meski tekanan ban hanya tersisa sekian psi saja.</p>
+<p>
+	Yang perlu diperhatikan, velg dengan bead lock ini direkomendasi hanya untuk kecepatan rendah (offroad).</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Velg celog </h2>
+					<p>
+	<strong>Velg celog </strong>Velg yang mempunyai bibir velg lebih lebar.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Velg nutup </h2>
+					<p>
+	<strong>Velg nutup </strong>Velg full disc. Seperti piring yang menutupi seluruh permukaan velg.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Velg three pieces </h2>
+					<p>
+	<strong>Velg three pieces </strong>Velg yang terdiri dari tiga bagian yaitu bibir luar (inner rim), bagian belakang (outter rim) dan center curve.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Velocity Responsive Damping (VRD) </h2>
+					<p>
+	<strong>Velocity Responsive Damping (VRD) -&nbsp;</strong>Sistem ini merupakan penyempurnaan dari sockbreker yang menganut dua kandungan didalamnya (gas dan oli). Sockbreker VRD ini memiliki konstruksi baru yang menghadirkan VRD value. Katup dilengkapi dengan beberapa piranti yang menyerupai rahang ditempatkan di dalam piston.</p>
+<p>
+	Alat ini bertugas mengendalikan arus oli dan gas. Karena adanya rahang ini, jalur jalannya oli dan gas menjadi lebih sempit. Maka kedua aliran zat peredam bisa mengalir tanpa hambatan, ketika intensitas tekanan rendah.</p>
+<p>
+	Dalam intensitas tekanan tinggi, rahang ini membatasi arus ketika mendapat viskositas oli meningkat. Hasilnya, peredam kejut menjadi lebih responsif, dalam kondisi apapun.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Versnelling </h2>
+					<p>
+	<strong>Versnelling </strong>Gunanya untuk mengubah percepatan jalannya mobil.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Victory Lap </h2>
+					<p>
+	<strong>Victory Lap </strong>Memutari sirkuit setelah memenangkan pertandingan</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Voice Coil </h2>
+					<p>
+	<strong>Voice Coil </strong>Komponen motorik pada subwoofer. Arus AC membuat voice coil akan menekan atau mendorong coil keluar dari jangkauan daya tarik magnet sehingga membuat energi akustikal untuk timbulnya suara pada speaker.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>VTEC</h2>
+					<p>
+	<strong>VTEC</strong> Singkatan dari &lsquo;Variable Valve Timing and Lift Electronic Control&rsquo;. Teknologi VTEC memberikan keran otomatis dimana katup bisa mengatur sendiri timing atau waktu ia membuka dan menutup.</p>
+<p>
+	Selain itu juga VTEC mampu mengatur sendiri berapa besar ia harus membuka, sesuai dengan kebutuhan mesin. Mulai saat rpm mesin rendah hingga rpm tinggi. Teknologi ini sudah digunakan sejak lama oleh HONDA dan diberi nama VTEC.</p>
+<p>
+	Sedangkan teknologi yang sama juga banyak digunakan oleh beberapa Merk. Contoh Volvo yang sudah lama menggunakannya yaitu dengan nama &ldquo;MICROPROSESOR CONTROLLED SELF ADJUSTING FUEL/IGNITION SYSTEM WITH KNOCK REGULATION AND DIAGNOSTIC SYSTEM&rdquo;</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>VVT-i </h2>
+					<p>
+	<strong>VVT-i </strong>Variable Valve TuningIntelligent. Teknologi yang dikembangkan oleh pabrikan Toyota dan diterapkan ke beberapa unit hasil produksinya, misalnya Toyota Previa.</p>
+<p>
+	Teknologi ini memungkinkan tuning katup yang variabel didukung oleh teknologi canggih. Teknologi ini sangat berpengaruh ke performa mesin sehingga mobil menjadi lebih kuat dalam menghadapi medan yang tidak lurus, misalnya tanjakan.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>W</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Waterpump  </h2>
+					<p>
+	<strong>Waterpump</strong> Gunanya untuk memompakan air dari dalam radiator yang akan diedarkan di dalam watermantel.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Weather Strip </h2>
+					<p>
+	<strong>Seal </strong>atau karet kedap air yang dipasang disekeliling pintu dan jendela mobil. Seal ini selain mencegah percikan atau butiran air untuk masuk ke kabin, juga mengedapkan suara dari luar kendaraan sehingga mengurangi kebisingan di dalam kompartemen penumpang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Weatherometer</h2>
+					<p>
+	<strong>Weatherometer</strong> Yaitu pengujian untuk menghitung ketahanan kaca film terhadap waktu, bahan kimia, dan cuaca.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wheel Shimmy  </h2>
+					<p>
+	Wheel Shimmy Getaran roda pada arah samping</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wheel tramp</h2>
+					<p>
+	<strong>Wheel tramp</strong> Roda bergetar pada arah vertikal</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wheelbase </h2>
+					<p>
+	<strong>Wheelbase </strong>Jarak antara sumbu roda depan dan sumbu roda belakang.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wheelie Bar </h2>
+					<p>
+	<strong>Wheelie Bar </strong>Batang pelindung supaya mobil tidak terjungkal, karena akselerasi yang tinggi (drag)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wheelie Bar </h2>
+					<p>
+	Batang pelindung supaya mobil tidak terjungkal, karena akselerasi yang tinggi (drag)</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Winch </h2>
+					<p>
+	<strong>Winch </strong>Sebutan untuk katrol yang terbuat dari sling baja yang digerakkan tenaga listrik untuk menarik mobil.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Windshield</h2>
+					<p>
+	<strong>Windshield</strong> Kaca depan mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Windshield wiper</h2>
+					<p>
+	&nbsp;Penyeka kaca depan mobil</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wing </h2>
+					<p>
+	<strong>Wing </strong>Perangkat aerodinamis yang digunakan oleh pesawat terbang, dengan efek teknologi yang sama di gunakan untuk mengurangi daya terbang karena kecepatan kendaraan .</p>
+<p>
+	Caranya adalah wing yang dipasang di mobil adalah khusus wing yang menciptakan efek downforce alias menekan kendaraan ke bawah agar tidak &lsquo;terbang&rsquo;.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wiper </h2>
+					<p>
+	Karet penyeka</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wiper Switch</h2>
+					<p>
+	&nbsp;Sakelar penyeka kaca</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Wishbone </h2>
+					<p>
+	<strong>Wishbone </strong>Jenis suspensi independen. Pada suspensi wishbone roda-roda tidak disambung oleh suatu poros dan dapat bergerak secara sendiri-sendiri. Suspensi ini digunakan dengan pegas koil atau batang torsi.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Worn</h2>
+					<p>
+	Kerusakan busi karena busi dalam keadaan aus. Tandatanda : Elektroda berbentuk bulat dengan sedikit endapan di mata busi (firing end). Warnanya normal. Namun susah distarter pada cuaca lembab, atau dingin akibat busi dibiarkan terlalu lama di mesin.</p>
+  
+						</li> <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>WRC</h2>
+					<p>
+	&nbsp;World Rallying Championship / World Rally Car</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>X</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 			 </ul>
+    	</div>
+		
+		
+		<div data-role="collapsible">
+			  <h2>Y</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Yaw </h2>
+					<p>
+	Rotasi badan mobil dari sumbu vertikalnya yang diakibatkan karena mobil berputar arah atau saat membelok.</p>
+  
+						</li> 			 </ul>
+    	</div>
+		
+		
+		
+		<div data-role="collapsible">
+			  <h2>Z</h2>
+				<ul id="sortedList" data-role="listview" data-theme="a" class="ui-listview-outer" data-autodividers="false" data-divider-theme="b"  data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+				 
+			 <li data-role="collapsible" data-theme="a" data-iconpos="right" data-shadow="false" data-corners="false" >
+					<h2>Zahnradfabrik Friedrichshafen (ZF) </h2>
+					<p>
+	<strong>Zahnradfabrik Friedrichshafen (ZF) -&nbsp;</strong>Salah satu pabrik pembuat transmisi terkemuka di dunia, berlokasi di Jerman. Produkproduknya banyak di gunakan oleh mobil-mobil balap</p>
+  
+						</li> 			 </ul>
+    	</div>
+</div>
+ 
+ 
+ 
+ </div><!-- /page -->
+ 
+  
+<div data-role="panel" data-position-fixed="true" data-display="push" data-theme="a" id="mypanel1">
+   
+   <ul data-role="listview">
+    <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+     <li><a href="#aboutkami">Tentang Kami</a></li>
+     <li><a href="#panel-fixed-page2">Cara Pakai</a></li>
+ 
+ 
+   </ul>
+
+  </div><!-- /panel -->
+
+
+<div data-role="page" id="aboutkami">
+  
+  
+<div data-role="header" data-position="fixed">
+ <a href="http://localhost/ip/" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">No text</a>
+ <h1>HITUNG IPK</h1>
+ 
+</div><!-- /header -->
+
+
+
+<h3 class="ui-bar ui-bar-a ui-corner-all" >Rincian dan Pengertian Program</h3>
+<div class="ui-body ui-body-a ui-corner-all">
+ tesss
+</div>  <!-- /content  bodynya cui -->
+  
+  
+  <div data-role="footer" data-position="fixed">
+   <h4>Tentang Program Kami</h4>
+  </div><!-- /footer -->
+ </div><!-- /page -->
+ 
+  
+ 
+ 
+
+
+
+ 
+
+ 
+ 
+</BODY></HTML>
